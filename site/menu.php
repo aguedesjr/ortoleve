@@ -4,10 +4,10 @@
           <nav id="menuzord-right" class="menuzord blue no-bg"><a class="menuzord-brand pull-left flip mb-15" href="index-mp-layout1.html"><img src="images/logo-wide.png" alt=""></a>
             <ul class="menuzord-menu">
               <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#">Features</a>
+              <li><a href="#">Ortoleve</a>
                 <ul class="dropdown">
-                  <li><a href="features-preloader.html">Preloaders</a></li>
-                  <li><a href="#">Layout Variations</a>
+                  <li><a href="features-preloader.html">Quem somos</a></li>
+                  <li><a href="#">Especialidades</a>
                     <ul class="dropdown">
                       <li><a href="#">Boxed Layout</a>
                         <ul class="dropdown">
