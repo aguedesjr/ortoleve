@@ -7,41 +7,8 @@
               <li><a href="#">Ortoleve</a>
                 <ul class="dropdown">
                   <li><a href="features-preloader.html">Quem somos</a></li>
-                  <li><a href="#">Especialidades</a>
-                    <!-- <ul class="dropdown">
-                      <li><a href="#">Boxed Layout</a>
-                        <ul class="dropdown">
-                          <li><a href="features-index-boxed-layout1.html">Layout 1</a></li>
-                          <li><a href="features-index-boxed-layout2.html">Layout 2</a></li>
-                          <li><a href="features-index-boxed-layout3.html">Layout 3</a></li>
-                          <li><a href="features-index-boxed-layout4.html">Layout 4</a></li>
-                          <li><a href="features-index-boxed-layout5.html">Layout 5</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">RTL Layout</a>
-                        <ul class="dropdown">
-                          <li><a href="features-index-rtl-layout1.html">Layout 1</a></li>
-                          <li><a href="features-index-rtl-layout2-boxed.html">Layout 2 - Boxed</a></li>
-                        </ul>
-                      </li>
-                    </ul>  -->
-                  </li>
-                  <li><a href="#">Header</a>
-                    <ul class="dropdown">
-                      <li><a href="features-header-style1.html">Header Style1</a></li>
-                      <li><a href="features-header-style2.html">Header Style2</a></li>
-                      <li><a href="features-header-style3.html">Header Style3</a></li>
-                      <li><a href="features-header-style4.html">Header Style4</a></li>
-                      <li><a href="features-header-style5.html">Header Style5</a></li>
-                      <li><a href="features-header-style6.html">Header Style6</a></li>
-                      <li><a href="features-header-style7.html">Header Style7</a></li>
-                      <li><a href="features-header-style8.html">Header Style8</a></li>
-                      <li><a href="features-header-style9.html">Header Style9</a></li>
-                      <li><a href="features-header-style10-logo-middle.html">Header Style10 - Logo Middle</a></li>
-                      <li><a href="features-header-style11-logo-centered.html">Style11 - Logo Centered</a></li>
-                      <li><a href="features-header-style12-logo-centered-transparent.html">Style12 - Logo Centered Transparent</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="#">Especialidades</a></li>
+                  <li><a href="#">Profissionais</a></li>
                   <li><a href="#">Header Modern <span class="label label-success">New</span></a>
                     <ul class="dropdown">
                       <li><a href="#">Style 1</a>
