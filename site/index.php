@@ -79,12 +79,12 @@
     <div id="spinner">
       <img src="images/preloaders/1.gif" alt="">
     </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+    <div id="disable-preloader" class="btn btn-default btn-sm">Desabilitar Preloader</div>
   </div>
   
   <!-- Header -->
   <header id="header" class="header">
-    <div class="header-top bg-light sm-text-center">
+    <!-- <div class="header-top bg-light sm-text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">
