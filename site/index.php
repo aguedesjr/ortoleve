@@ -10,10 +10,10 @@
 <meta name="author" content="ThemeMascot" />
 
 <!-- Page Title -->
-<title>DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template</title>
+<title>Ortoleve | Clínica de Odontologia Especializada</title>
 
 <!-- Favicon and Touch Icons -->
-<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/icone.png" rel="shortcut icon" type="image/png">
 <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
 <link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
