@@ -26,7 +26,7 @@
 <link href="css/css-plugin-collections.css" rel="stylesheet"/>
 <!-- CSS | menuzord megamenu skins -->
 <link href="css/menuzord-megamenu.css" rel="stylesheet"/>
-<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-shadow.css" rel="stylesheet"/>
+<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-strip.css" rel="stylesheet"/>
 <!-- CSS | Main style file -->
 <link href="css/style-main.css" rel="stylesheet" type="text/css">
 <!-- CSS | Preloader Styles -->
