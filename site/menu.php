@@ -1,7 +1,7 @@
 <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">
-          <nav id="menuzord-right" class="menuzord orange no-bg"><a class="menuzord-brand pull-left flip mb-15" href="index.php"><img src="images/logo-wide.png" alt=""></a>
+          <nav id="menuzord-right" class="menuzord orange no-bg"><a class="menuzord-brand pull-left flip mb-15" href="index.php"><img src="images/logo-menu.png" alt=""></a>
             <ul class="menuzord-menu">
               <!-- <li class="active"><a href="#home">Home</a></li>-->
               <li><a href="#">Ortoleve</a>
