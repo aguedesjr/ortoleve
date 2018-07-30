@@ -8,7 +8,7 @@
                 <ul class="dropdown">
                   <li><a href="features-preloader.html">Quem somos</a></li>
                   <li><a href="#">Especialidades</a>
-                    <ul class="dropdown">
+                    <!-- <ul class="dropdown">
                       <li><a href="#">Boxed Layout</a>
                         <ul class="dropdown">
                           <li><a href="features-index-boxed-layout1.html">Layout 1</a></li>
@@ -24,7 +24,7 @@
                           <li><a href="features-index-rtl-layout2-boxed.html">Layout 2 - Boxed</a></li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul>  -->
                   </li>
                   <li><a href="#">Header</a>
                     <ul class="dropdown">
