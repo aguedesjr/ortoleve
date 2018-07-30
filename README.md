@@ -12,5 +12,6 @@ Funções:
 --> Página de Fale conosco por e-mail e número de whatsapp  
 --> Página de planos conveniados  
 --> Fotos do local  
---> Localização com mapa  
+--> Localização com mapa    
 --> Depoimentos  
+--> Área do Cliente com Login  
