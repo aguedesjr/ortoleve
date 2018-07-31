@@ -19,13 +19,12 @@ Funções:
 Menu:  
 
 --> Ortoleve  
- |  
-  -> Quem somos  
-  -> Especialidades  
-  -> Profissionais  
-  -> Fotos do Local  
-  -> Depoimentos  
-  -> Planos  
+	- Quem somos  
+	- Especialidades  
+	- Profissionais  
+	- Fotos do Local  
+	- Depoimentos  
+	- Planos  
 --> Contato com Mapa  
 --> Área do Cliente
 
