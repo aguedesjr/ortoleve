@@ -5,9 +5,9 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template" />
-<meta name="keywords" content="keyword1,keyword2,keyword3,keyword4,keyword5" />
-<meta name="author" content="ThemeMascot" />
+<meta name="description" content="Ortoleve | Clínica de Odontologia Especializada" />
+<meta name="keywords" content="ortoleve,odontologia,especializada,campos dos goytacazes,keyword5" />
+<meta name="author" content="Ortoleve" />
 
 <!-- Page Title -->
 <title>Ortoleve | Clínica de Odontologia Especializada</title>
