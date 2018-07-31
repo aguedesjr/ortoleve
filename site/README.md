@@ -19,17 +19,20 @@ Funções:
 Menu:  
 
 --> Ortoleve  
-	- Quem somos  
-	- Especialidades  
-	- Profissionais  
-	- Fotos do Local  
-	- Depoimentos  
-	- Planos  
+- Quem somos
+- Especialidades  
+- Profissionais  
+- Fotos do Local  
+- Depoimentos  
+- Planos  
+
 --> Contato com Mapa  
 --> Área do Cliente
 
 Slide:  
 
---> Horário de Funcionamento com a frase "Horário de Funcionamento: 08h00 as 18h00"
---> Foto do local com a frase "Conforto para melhor atender"
---> Foto dos profissionais juntos com a frase "Profissionais qualificados em diversas áreas"    
+--> Horário de Funcionamento com a frase "Horário de Funcionamento: 08h00 as 18h00"  
+--> Foto do local com a frase "Conforto para melhor atender"  
+--> Foto dos profissionais juntos com a frase "Profissionais qualificados em diversas áreas"  
+
+	> Site ainda em construção.  
