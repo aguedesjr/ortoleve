@@ -160,7 +160,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Conforto para melhor atender.
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Conforto para melhor <span class="text-theme-colored2">atender</span>.
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
