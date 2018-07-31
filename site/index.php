@@ -363,7 +363,7 @@
                 </div>
               </li>
             </ul>
-            <div class="tp-bannertimer tp-bottom" style="height: 5px; background-color: rgba(166, 216, 236, 1.00);"></div>
+            <div class="tp-bannertimer tp-bottom" style="height: 5px; background-color: rgba(249, 186, 114, 1.00);"></div>
           </div>
         </div>
         <!-- END REVOLUTION SLIDER -->
