@@ -416,7 +416,7 @@
                 }
                 },
                 bullets: {
-                enable:true,
+                enable:false,
                 hide_onmobile:true,
                 hide_under:600,
                 style:"metis",
