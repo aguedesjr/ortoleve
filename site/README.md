@@ -35,4 +35,4 @@ Slide:
 --> Foto do local com a frase "Conforto para melhor atender"  
 --> Foto dos profissionais juntos com a frase "Profissionais qualificados em diversas áreas"  
 
-	> Site ainda em construção.  
+> Site ainda em construção.
