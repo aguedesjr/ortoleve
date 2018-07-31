@@ -44,7 +44,7 @@
 <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
 <!-- CSS | Theme Color -->
-<link href="css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
+<link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
@@ -160,7 +160,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Conforto para melhor <span class="text-theme-colored2">atender</span>.
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Conforto para melhor <span class="text-theme-colored">atender</span>.
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
