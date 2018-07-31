@@ -188,7 +188,7 @@
               <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x750" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Make an Impact">
                 <!-- MAIN IMAGE -->
-                <img src="http://placehold.it/1920x750" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="images/profissionais.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0" 
@@ -227,7 +227,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 7; white-space: nowrap;">Online Learning
+                  style="z-index: 7; white-space: nowrap;">
                 </div>
                 <!-- LAYER NR. 2 -->
                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0" 
@@ -250,7 +250,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Take the <span class="text-theme-colored">world's</span> best <span class="text-theme-color-2">courses,</span> online.
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Profissionais <span class="text-theme-colored">qualificados </span>em diversas áreas.
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
@@ -271,7 +271,7 @@
                   data-splitout="none" 
                   data-responsive_offset="on" 
                   data-responsive="off"
-                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><a href="#" class="btn btn-dark btn-theme-colored btn-xl">Read More</a>
+                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
                 </div>
               </li>
               <!-- SLIDE 3 -->
