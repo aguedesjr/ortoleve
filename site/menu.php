@@ -14,7 +14,7 @@
                   <li><a href="#">Depoimentos</a></li>
                 </ul>
               </li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="contato.php">Contato</a></li>
               <li><a href="#">Área do Cliente</a></li>
             </ul>
           </nav>
