@@ -27,7 +27,9 @@ Menu:
 - Planos  
 
 --> Contato com Mapa  
---> Área do Cliente
+--> Área do Cliente (Número Carteira, Senha, Nome, Perfil, Tabela fornecida).
+
+> Banco de dados MySQL na área do cliente.
 
 Slide:  
 
