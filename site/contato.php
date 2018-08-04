@@ -98,7 +98,8 @@
         <div class="row">
 
           <!-- Google Map HTML Codes -->
-          <div 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d926.4053276087416!2d-41.32362337187873!3d-21.75620207661898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdd50249eafc7f%3A0x96753d683335144f!2sOrtoleve!5e0!3m2!1spt-BR!2sbr!4v1533420033168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- <div 
             data-address="Praça São Salvador, 41 - Centro, Campos dos Goytacazes - Rio de Janeiro, Brasil"
             data-popupstring-id="#popupstring1"
             class="map-canvas autoload-map"
@@ -115,9 +116,9 @@
               <p>Praça São Salvador, 41 (Ed. Ninho das Águias) Sobreloja 10 - Centro - Campos dos Goytacazes/RJ</p>
             </div>
           </div>
-          <!-- Google Map Javascript Codes -->
+          <!-- Google Map Javascript Codes
           <script src="http://maps.google.com/maps/api/js?key=AIzaSyADlUCHXvriw8yDblr1GYm1Ro3-1W7zG9c"></script>
-          <script src="js/google-map-init.js"></script>
+          <script src="js/google-map-init.js"></script>  -->
 
         </div>
       </div>

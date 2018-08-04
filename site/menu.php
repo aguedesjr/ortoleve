@@ -7,7 +7,7 @@
               <li><a href="#">Ortoleve</a>
                 <ul class="dropdown">
                   <li><a href="sobre.php">Quem somos</a></li>
-                  <li><a href="servicos.php">Especialidades</a></li>
+                  <li><a href="servicos.php">Serviços</a></li>
                   <li><a href="#">Profissionais</a></li>
                   <li><a href="#">Planos</a></li>
                   <li><a href="#">Fotos</a></li>
