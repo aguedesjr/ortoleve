@@ -82,27 +82,18 @@
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->
-    <!-- <section class="inner-header divider parallax layer-overlay overlay-theme-colored-8" data-bg-img="http://placehold.it/1920x873" data-parallax-ratio="0.7">
-      <div class="container pt-70 pb-20">
-        <!-- Section Content
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="title text-center text-white">Especialidades</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    
-    <section class="divider parallax layer-overlay overlay-theme-colored-6" data-bg-img="http://placehold.it/1920x873" data-parallax-ratio="0.7">
-      <div class="container">
-        <div class="container pt-70 pb-20">
+    <section class="inner-header divider parallax layer-overlay overlay-theme-colored-6">
+      <div class="container pt-60 pb-60">
         <!-- Section Content -->
         <div class="section-content">
           <div class="row">
-            <div class="col-md-12">
-              <h2 class="title text-center text-white">Especialidades</h2>
+            <div class="col-md-12 text-center">
+              <h2 class="title text-white">Especialidades</h2>
+              <!-- <ol class="breadcrumb text-center text-black mt-10">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li class="active text-theme-colored">Page Title</li>
+              </ol>  -->
             </div>
           </div>
         </div>
