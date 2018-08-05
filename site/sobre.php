@@ -36,7 +36,7 @@
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<link href="fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+<link href="fonts/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
 
 <!-- Revolution Slider 5.x CSS settings -->
 <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
@@ -99,7 +99,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- Section: about -->
     <section id="about">
       <div class="container">
@@ -120,7 +120,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- Section: Services -->
     <section class="bg-silver-light">
       <div class="container">
@@ -138,7 +138,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="far fa-smile text-theme-colored"></i></a>
+                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-smile text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Missão</h3>
                   <p>Tornar a odontologia acessível a todos promovendo a saúde bucal.</p>
@@ -147,7 +147,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="far fa-star text-theme-colored"></i></a>
+                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-star text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Visão</h3>
                   <p>Ser referência de qualidade acessível na odontologia.</p>
@@ -156,30 +156,16 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="far fa-chart-line text-theme-colored"></i></a>
+                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-chart-line text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Valores</h3>
-                  <li>
-                  	<ol>Ciência;</ol>
-                  </li>
-                  <li>
-                  	<ol>Consciência;</ol>
-                  </li>
-                  <li>
-                  	<ol>Segurança;</ol>
-                  </li>
-                  <li>	
-                  	<ol>Confiança;</ol>
-                  </li>
-                  <li>	
-                  	<ol>Serenidade;</ol>
-                  </li>	
-                  <li>	
-                  	<ol>Continuidade;</ol>
-                  </li>	
-                  <li>	
-                  	<ol>Serviço em amor.</ol>
-                  </li>
+                  <li><ol>Ciência;</ol></li>
+                  <li><ol>Consciência;</ol></li>
+                  <li><ol>Segurança;</ol></li>
+                  <li><ol>Confiança;</ol></li>
+                  <li><ol>Serenidade;</ol></li>
+                  <li><ol>Continuidade;</ol></li>
+                  <li><ol>Serviço em amor.</ol></li>
                 </div>
               </div>
             </div>
@@ -187,7 +173,8 @@
         </div>
       </div>
     </section>
-
+    
+  </div>
   <!-- end main-content -->
   
   <!-- Footer -->
