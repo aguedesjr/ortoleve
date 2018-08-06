@@ -159,13 +159,15 @@
                 <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-chart-line text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Valores</h3>
-                  <li><ol>Ciência;</ol></li>
-                  <li><ol>Consciência;</ol></li>
-                  <li><ol>Segurança;</ol></li>
-                  <li><ol>Confiança;</ol></li>
-                  <li><ol>Serenidade;</ol></li>
-                  <li><ol>Continuidade;</ol></li>
-                  <li><ol>Serviço em amor.</ol></li>
+                  <ul class="list theme-colored">
+                      <li>Ciência;</li>
+                      <li>Consciência;</li>
+                      <li>Segurança;</li>
+                      <li>Confiança;</li>
+                      <li>Serenidade;</li>
+                      <li>Continuidade;</li>
+                      <li>Serviço em amor.</li>
+                  </ul>
                 </div>
               </div>
             </div>

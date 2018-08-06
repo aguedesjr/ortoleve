@@ -514,10 +514,12 @@
             </div>
             <div class="col-md-7">
               <h2 class="font-size-38 mt-0">O valor do <span class="text-theme-colored">sorriso</span>.</h2>
-              <li><ol>Melhora a qualidade de vida;</ol></li>
-              <li><ol>Melhora a autoestima;</ol></li>
-              <li><ol>Melhora os relacionamentos;</ol></li>
-              <li><ol>Amplia as possibilidades no trabalho.</ol></li>
+              <ul class="list theme-colored">
+                  <li>Melhora a qualidade de vida;</li>
+                  <li>Melhora a autoestima;</li>
+                  <li>Melhora os relacionamentos;</li>
+                  <li>Amplia as possibilidades no trabalho.</li>
+               </ul>
             </div>
           </div>
         </div>
