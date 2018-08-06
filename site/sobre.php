@@ -159,7 +159,7 @@
                 <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-chart-line text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Valores</h3>
-                  <ul class="list theme-colored">
+                  <ul class="list theme-colored check">
                       <li>Ciência;</li>
                       <li>Consciência;</li>
                       <li>Segurança;</li>

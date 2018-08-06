@@ -105,74 +105,75 @@
             <div class="gallery-isotope default-animation-effect grid-4 gutter-small clearfix" data-lightbox="gallery">
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/amil1.png" data-lightbox="gallery-item" title="Amil Dental"><img src="images/amil1.png" alt=""></a>
+                <img src="images/amil1.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/prodent.jpg" data-lightbox="gallery-item" title="Prodent"><img src="images/prodent.jpg" alt=""></a>
+                <img src="images/prodent.jpg" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/unimed.png" data-lightbox="gallery-item" title="Unimed Odonto"><img src="images/unimed.png" alt=""></a>
+                <img src="images/unimed.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/odonto-empresas.png" data-lightbox="gallery-item" title="Rede Odonto Empresas"><img src="images/odonto-empresas.png" alt=""></a>
+                <img src="images/odonto-empresas.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/sulamerica-dental.jpg" data-lightbox="gallery-item" title="Sulamerica Dental"><img src="images/sulamerica-dental.jpg" alt=""></a>
+                <img src="images/sulamerica-dental.jpg" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/odontoprev.png" data-lightbox="gallery-item" title="Odontoprev"><img src="images/odontoprev.png" alt=""></a>
+                <img src="images/odontoprev.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/golden.png" data-lightbox="gallery-item" title="Golden Cross"><img src="images/golden.png" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/sempre_odonto.png" data-lightbox="gallery-item" title="Sempre Odonto"><img src="images/sempre_odonto.png" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/bradesco.png" data-lightbox="gallery-item" title="Bradesco Dental"><img src="images/bradesco.png" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/interodonto.jpeg" data-lightbox="gallery-item" title="Interodonto"><img src="images/interodonto.jpeg" alt=""></a>
+                <img src="images/golden.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item" align="center">
               	<br>
-                <a href="images/sindicato.png" data-lightbox="gallery-item" title="Sindicato dos Bancários"><img src="images/sindicato.png" alt=""></a>
+                <img src="images/sempre_odonto1.png" alt="">
               </div>
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/metlife1.png" data-lightbox="gallery-item" title="Metlife"><img src="images/metlife1.png" alt=""></a>
+                <img src="images/bradesco.png" alt="">
+              </div>
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <div class="gallery-item">
+                <img src="images/interodonto.jpeg" alt="">
+              </div>
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <div class="gallery-item" align="center">
+              	<br>
+                <img src="images/sindicato.png" alt="">
+              </div>
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <div class="gallery-item">
+                <img src="images/metlife1.png" alt="">
               </div>
               <!-- Portfolio Item End -->
             </div>
