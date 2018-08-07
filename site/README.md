@@ -4,16 +4,16 @@
 
 Funções:  
 
---> Tem que ser responsivo  
---> Horário e dias de atendimento  
---> Informações sobre a Ortoleve  
---> Informações sobre as especialidades  
---> Colocar os dentitas com fotos  
---> Página de Fale conosco por e-mail e número de whatsapp  
---> Página de planos conveniados  
+--> Tem que ser responsivo  (OK)  
+--> Horário e dias de atendimento (OK)   
+--> Informações sobre a Ortoleve  (OK)  
+--> Informações sobre as especialidades (OK)   
+--> Colocar os dentitas com fotos  (OK)  
+--> Página de Fale conosco por e-mail e número de whatsapp  (OK)    
+--> Página de planos conveniados  (Retirado)  
 --> Fotos do local  
---> Localização com mapa    
---> Depoimentos  
+--> Localização com mapa   (OK)  
+--> Depoimentos  (OK)  
 --> Área do Cliente com Login  
 
 Menu:  
@@ -23,8 +23,7 @@ Menu:
 - Especialidades  
 - Profissionais  
 - Fotos do Local  
-- Depoimentos  
-- Planos  
+- Planos  (Retirado)  
 
 --> Contato com Mapa  
 --> Área do Cliente (Número Carteira, Senha, Nome, Perfil, Tabela fornecida).

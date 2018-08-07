@@ -167,7 +167,7 @@
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Entre em contato conosco</h3>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
+            <form id="contact_form" name="contact_form" class="" action="includes/enviaremail.php" method="post">
 
               <div class="row">
                 <div class="col-sm-12">
@@ -205,7 +205,7 @@
               </div>
               <div class="form-group">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Please wait...">Enviar</button>
+                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Enviando...">Enviar</button>
                 <!-- <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>-->
               </div>
             </form>

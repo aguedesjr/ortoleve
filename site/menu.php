@@ -12,7 +12,6 @@
                   <li><a href="#">Ortoleve-50</a></li>
                   <!-- <li><a href="planos.php">Planos</a></li>  -->
                   <li><a href="#">Fotos</a></li>
-                  <li><a href="#">Depoimentos</a></li>
                 </ul>
               </li>
               <li><a href="contato.php">Contato</a></li>

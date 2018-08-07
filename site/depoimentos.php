@@ -22,7 +22,7 @@
                       <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
                     </div>
                     <div class="content mt-20">
-                      <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
                         <h5 class="author">Gavin Smith</h5>
                         <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
@@ -36,7 +36,7 @@
                       <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
                     </div>
                     <div class="content mt-20">
-                      <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
                         <h5 class="author">Jonathan Smith</h5>
                         <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
@@ -50,7 +50,7 @@
                       <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
                     </div>
                     <div class="content mt-20">
-                      <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
                         <h5 class="author">Mary James</h5>
                         <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
@@ -64,7 +64,7 @@
                       <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
                     </div>
                     <div class="content mt-20">
-                      <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
                         <h5 class="author">Lucy brown</h5>
                         <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
