@@ -513,7 +513,9 @@
               </div>
             </div>
             <div class="col-md-7">
-              <h2 class="font-size-38 mt-0">O valor do <span class="text-theme-colored">sorriso</span>.</h2>
+              <h2 class="font-size-38 mt-0">Nosso <span class="text-theme-colored">sorriso</span>.</h2>
+              <p>Há poucas coisas na vida que transmitem tanta leveza quanto um sorriso. Nós trabalhamos para que seu tratamento seja tão leve quanto um sorriso!</p>
+              <h2 class="font-size-38 mt-0">Seu <span class="text-theme-colored">sorriso</span>.</h2>
               <ul class="list theme-colored check">
                   <li>Melhora a qualidade de vida;</li>
                   <li>Melhora a autoestima;</li>

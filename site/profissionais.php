@@ -113,10 +113,9 @@
             </div>
             <div class="col-md-8">
               <h3 class="name font-24 mt-0 mb-0">DR. MAURÍCIO RIBEIRO PEREIRA</h3>
-              <h4 class="mt-5 text-theme-colored">Implantodontista</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vero expedita fugiat illo quasi doloremque, in unde omnis sint assumenda! Quaerat in, reprehenderit corporis voluptatum natus sequi reiciendis ullam. Quam eaque dolorum voluptates cupiditate explicabo.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt culpa dicta quaerat qui recusandae possimus placeat quidem ipsam voluptates similique libero tempore, labore quasi delectus vero alias, consectetur blanditiis eum maxime sunt accusantium ipsa doloribus reiciendis. Ea quod reprehenderit deserunt. Veritatis omnis similique tempora delectus a consequuntur, quis.  Adipisicing elit. Nesciunt culpa dicta quaerat qui recusandae possimus placeat quidem ipsam voluptates similique libero tempore, labore quasi delectus vero alias.</p>
-              
+              <h4 class="mt-5 text-theme-colored">Ortodontista / Ortopedista Facial / Implantodontista</h4>
+              <p>Atuando há 25 anos na odontologia buscando servir em amor, tenho um profundo desejo: Tornar a odontologia e a saúde bucal acessível a todos. A Ortoleve nasceu desse ideal e amadureceu quando encontrei profissionais com a mesma visão, missão e valor.</p>              
+              <p class="mt-20"><img src="images/assinatura.png" alt=""></p>
             </div>
           </div>
           

@@ -1,7 +1,8 @@
 <?php
 
-require_once('phpmailer/class.phpmailer.php');
-require_once('phpmailer/class.smtp.php');
+//require_once('phpmailer/class.phpmailer.php');
+//require_once('phpmailer/class.smtp.php');
+require_once('phpmailer/PHPMailerAutoload.php');
 
 $mail = new PHPMailer();
 
@@ -10,10 +11,23 @@ $mail = new PHPMailer();
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.ortoleve.com.br';                 // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'nao-responda@ortoleve.com.br';     // SMTP username
+$mail->Username = 'nao-responda@ortoleve.com.br';            // SMTP username
 $mail->Password = 'zBf1NRaK';                         // SMTP password
-//$mail->SMTPSecure = 'no';                             // Enable TLS encryption, `ssl` also accepted
+//$mail->SMTPSecure = 'tls';                             // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
+$mail->isHTML(true);                                  // Set email format to HTML
+$mail->Charset   = 'utf8_decode()';
+$mail->AddReplyTo = 'nao-responda@ortoleve.com.br';
+//$mail->Host  = 'smtp.'.substr(strstr($caixaPostalServidorEmail, '@'), 1);
+
+
+
+//$mail->Username  = $caixaPostalServidorEmail;
+//$mail->Password  = $caixaPostalServidorSenha;
+$mail->From  = 'nao-responda@ortoleve.com.br';
+$mail->FromName  = utf8_decode('Não Responda Ortoleve');
+//$mail->Subject  = utf8_decode($assunto);
+//$mail->Body  = utf8_decode($mensagemConcatenada);
 
 $message = "";
 $status = "false";
