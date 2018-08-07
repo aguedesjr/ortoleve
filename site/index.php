@@ -530,6 +530,9 @@
   </div>
   <!-- end main-content -->
 
+    <!-- Depoimentos -->
+  <?php include 'depoimentos.php';?>
+
   <!-- Footer -->
   <?php include 'footer.php';?>
   
