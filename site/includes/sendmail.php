@@ -16,7 +16,7 @@ $caixaPostalServidorSenha = 'zBf1NRaK';
 $remetenteNome  = $_POST['remetenteNome'];
 $remetenteEmail = $_POST['remetenteEmail'];
 $assunto  = $_POST['assunto'];
-$mensagem = n12br($_POST['mensagem']);
+$mensagem = nl2br($_POST['mensagem']);
 $telefone = $_POST['telefone'];
 
 $mensagemConcatenada = 'Contato gerado via website'.'<br/>';
