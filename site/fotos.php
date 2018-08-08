@@ -109,21 +109,10 @@
 
             <!-- Portfolio Gallery Grid -->
             <div class="gallery-isotope default-animation-effect grid-4 gutter-small clearfix" data-lightbox="gallery">
-              <!-- Portfolio Item Start -->
+            
+            <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/consultorio1.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio1.jpg" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/consultorio2.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio2.jpg" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
-              
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/consultorio3.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio3.jpg" alt=""></a>
+                <a href="images/consultorio10.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio10.jpg" alt=""></a>
               </div>
               <!-- Portfolio Item End -->
               
@@ -147,8 +136,32 @@
               
               <!-- Portfolio Item Start -->
               <div class="gallery-item">
-                <a href="images/consultorio7.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio7.jpg" alt=""></a>
+                <a href="images/consultorio9.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio9.jpg" alt=""></a>
               </div>
+              <!-- Portfolio Item End -->
+            
+              <!-- Portfolio Item Start -->
+              <div class="gallery-item">
+                <a href="images/consultorio1.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio1.jpg" alt=""></a>
+              </div>
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <div class="gallery-item">
+                <a href="images/consultorio2.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio2.jpg" alt=""></a>
+              </div>
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <!-- <div class="gallery-item">
+                <a href="images/consultorio3.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio3.jpg" alt=""></a>
+              </div>  -->
+              <!-- Portfolio Item End -->
+              
+              <!-- Portfolio Item Start -->
+              <!-- <div class="gallery-item">
+                <a href="images/consultorio7.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio7.jpg" alt=""></a>
+              </div>  -->
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
@@ -157,17 +170,9 @@
               </div>
               <!-- Portfolio Item End -->
               
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/consultorio9.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio9.jpg" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
               
-              <!-- Portfolio Item Start -->
-              <div class="gallery-item">
-                <a href="images/consultorio10.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio10.jpg" alt=""></a>
-              </div>
-              <!-- Portfolio Item End -->
+              
+              
               
             </div>
             <!-- End Portfolio Gallery Grid -->

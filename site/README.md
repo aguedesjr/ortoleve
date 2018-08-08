@@ -11,7 +11,7 @@ Funções:
 --> Colocar os dentitas com fotos  (OK)  
 --> Página de Fale conosco por e-mail e número de whatsapp  (OK)    
 --> Página de planos conveniados  (Retirado)  
---> Fotos do local  
+--> Fotos do local  (OK)  
 --> Localização com mapa   (OK)  
 --> Depoimentos  (OK)  
 --> Área do Cliente com Login  
@@ -19,9 +19,9 @@ Funções:
 Menu:  
 
 --> Ortoleve  
-- Quem somos
-- Especialidades  
-- Profissionais  
+- Quem somos  (OK)  
+- Especialidades  (OK)  
+- Profissionais  (OK)  
 - Fotos do Local  (OK)  
 - Planos  (Retirado)  
 
