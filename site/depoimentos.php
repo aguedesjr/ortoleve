@@ -19,13 +19,13 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                      <p class="text-white">Eu e minha família nos sentimos muito acolhidas por toda Equipe Ortolev! Competência, cuidado, atenção e carinho que fazem toda a diferença... Só temos a agradecer.</p><br><br>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
-                        <h5 class="author">Gavin Smith</h5>
-                        <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
+                        <h5 class="author">Meirislaine, Pedro, Daniel e Rulfe</h5>
+                        <!-- <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>-->
                       </div>
                     </div>
                   </div>
@@ -33,13 +33,12 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                      <p class="text-white">Sou cliente Ortoleve há mais de 3 anos, onde encontrei um ambiente organizado e confortável, bem como profissionais honestos. Os resultados superam minhas expectativas!</p><br><br>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
-                        <h5 class="author">Jonathan Smith</h5>
-                        <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
+                        <h5 class="author">Jorge de Oliveira Santos</h5>
                       </div>
                     </div>
                   </div>
@@ -47,13 +46,12 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                      <p class="text-white">O tratamento que faço na Ortoleve é excelente. Com profissionais capacitados, atenciosos e humanizados. Sempre atualizados,  nos proporcionando um incrível tratamento.</p><br><br>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
-                        <h5 class="author">Mary James</h5>
-                        <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
+                        <h5 class="author">Barbara Rosa</h5>
                       </div>
                     </div>
                   </div>
@@ -61,13 +59,12 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui dolorem facilis.</p>
+                      <p class="text-white">Eu gosto muito do tratamento na Ortoleve, porque além de um clínica maravilhosa, com uma higiene impecável, eu consigo atingir todos os meus objetivos com o meu tratamento, e com a responsabilidade de todos os profissionais que trabalham na clínica!!</p>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
-                        <h5 class="author">Lucy brown</h5>
-                        <h6 class="title text-gray-bbb mt-0">Happy Patient</h6>
+                        <h5 class="author">Natália do Carmo</h5>
                       </div>
                     </div>
                   </div>
