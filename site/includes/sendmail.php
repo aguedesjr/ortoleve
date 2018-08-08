@@ -2,8 +2,8 @@
 
 /*** INÍCIO - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
 
-$enviaFormularioParaNome = 'Nao Responda Ortoleve';
-$enviaFormularioParaEmail = 'nao-responda@ortoleve.com.br';
+$enviaFormularioParaNome = 'Contato Ortoleve';
+$enviaFormularioParaEmail = 'contato@ortoleve.com.br';
 
 $caixaPostalServidorNome = 'Ortoleve WebSite | Contato';
 $caixaPostalServidorEmail = 'nao-responda@ortoleve.com.br';
@@ -26,8 +26,8 @@ $mensagemConcatenada .= '<strong>Nome: </strong>'.$remetenteNome.'<br/>';
 $mensagemConcatenada .= '<strong>E-mail: </strong>'.$remetenteEmail.'<br/>';
 $mensagemConcatenada .= '<strong>Telefone: </strong>'.$telefone.'<br/>';
 $mensagemConcatenada .= '<strong>Assunto: </strong>'.$assunto.'<br/>';
-$mensagemConcatenada .= '-------------------------------<br/><br/>';
-$mensagemConcatenada .= '<strong>Mensagem: </strong>'.$mensagem.'<br/>';
+$mensagemConcatenada .= '<br/>';
+$mensagemConcatenada .= '<strong>Mensagem: </strong><br/>'.$mensagem.'<br/>';
 
 
 //require_once('phpmailer/class.phpmailer.php');
