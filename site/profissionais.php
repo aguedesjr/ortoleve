@@ -114,7 +114,7 @@
             <div class="col-md-8">
               <h3 class="name font-24 mt-0 mb-0">DR. MAURÍCIO RIBEIRO</h3>
               <h4 class="mt-5 text-theme-colored">Ortodontista / Ortopedista Facial / Implantodontista</h4>
-              <p>Atuando há 25 anos na odontologia buscando servir em amor, tenho um profundo desejo: Tornar a odontologia e a saúde bucal acessível a todos. A Ortoleve nasceu desse ideal e amadureceu quando encontrei profissionais com a mesma visão, missão e valor.</p>              
+              <p>Atuando há 25 anos na odontologia buscando servir por amor, tenho um profundo desejo: Tornar a odontologia e a saúde bucal acessível a todos. A Ortoleve nasceu desse ideal e amadureceu quando encontrei profissionais com a mesma visão, missão e valor.</p>              
               <p class="mt-20"><img src="images/assinatura.png" alt=""></p>
             </div>
           </div>
