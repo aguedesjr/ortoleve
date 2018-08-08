@@ -69,6 +69,19 @@
                     </div>
                   </div>
                 </div>
+                <div class="item">
+                  <div class="testimonial style1">
+                    <div class="comment bg-theme-colored">
+                      <p class="text-white">Sou cliente há mais de dez anos e recomendo não só pelos resultados que superaram todas as minhas expectativas mas também pelo profissionalismo de toda equipe. Sou muito grata.</p><br><br>
+                    </div>
+                    <div class="content mt-20">
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
+                      <div class="text-right flip pull-right flip mr-20 mt-10">
+                        <h5 class="author">Joyce Barreto Pinto de Oliveira</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
