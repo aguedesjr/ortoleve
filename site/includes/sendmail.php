@@ -2,10 +2,10 @@
 
 /*** INÍCIO - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
 
-$enviaFormularioParaNome = 'Ortoleve';
+$enviaFormularioParaNome = 'Nao Responda Ortoleve';
 $enviaFormularioParaEmail = 'nao-responda@ortoleve.com.br';
 
-$caixaPostalServidorNome = 'WebSite | Formulário';
+$caixaPostalServidorNome = 'Ortoleve WebSite | Contato';
 $caixaPostalServidorEmail = 'nao-responda@ortoleve.com.br';
 $caixaPostalServidorSenha = 'zBf1NRaK';
 
@@ -53,9 +53,10 @@ $message = "";
 $status = "false";
 
 if(!$mail->Send()){
-    $mensagemRetorno = 'Erro ao enviar formulário: '. print($mail->ErrorInfo);
+    $message = 'Erro ao enviar formulário: '. print($mail->ErrorInfo);
+    $status = "false";
 }else{
-    $message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+    $message = 'Nós <strong>recebemos</strong> sua mensagem e entraremos em contato o mais breve possível.';
     $status = "true";
 }
 
