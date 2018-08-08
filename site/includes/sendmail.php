@@ -17,14 +17,17 @@ $remetenteNome  = $_POST['remetenteNome'];
 $remetenteEmail = $_POST['remetenteEmail'];
 $assunto  = $_POST['assunto'];
 $mensagem = $_POST['mensagem'];
+$telefone = $_POST['telefone'];
 
-$mensagemConcatenada = 'Formulário gerado via website'.'< br/>';
-$mensagemConcatenada .= '-------------------------------< br/>< br/>';
-$mensagemConcatenada .= 'Nome: '.$remetenteNome.'< br/>';
-$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'< br/>';
-$mensagemConcatenada .= 'Assunto: '.$assunto.'< br/>';
-$mensagemConcatenada .= '-------------------------------< br/>< br/>';
-$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"< br/>';
+$mensagemConcatenada = 'Contato gerado via website'.'<br/>';
+$mensagemConcatenada .= '-------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Segue dados do contato:<br/>';
+$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>';
+$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>';
+$mensagemConcatenada .= 'Telefone: '.$telefone.'<br/>';
+$mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
+$mensagemConcatenada .= '-------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
 
 
 //require_once('phpmailer/class.phpmailer.php');

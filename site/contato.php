@@ -194,7 +194,7 @@
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label>Telefone</label>
-                    <input name="form_phone" class="form-control" type="text" placeholder="Telefone">
+                    <input name="telefone" class="form-control" type="text" placeholder="Telefone">
                   </div>
                 </div>
               </div>
