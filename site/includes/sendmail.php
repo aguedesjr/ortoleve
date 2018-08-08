@@ -52,9 +52,14 @@ $mail->AddAddress($enviaFormularioParaEmail,utf8_decode($enviaFormularioParaNome
 $message = "";
 $status = "false";
 
+if(!$mail->Send()){
+    $mensagemRetorno = 'Erro ao enviar formulário: '. print($mail->ErrorInfo);
+}else{
+    $message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+    $status = "true";
+}
 
-$message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
-$status = "true";
+
 
 $status_array = array( 'message' => $message, 'status' => $status);
 echo json_encode($status_array);
