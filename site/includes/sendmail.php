@@ -16,18 +16,18 @@ $caixaPostalServidorSenha = 'zBf1NRaK';
 $remetenteNome  = $_POST['remetenteNome'];
 $remetenteEmail = $_POST['remetenteEmail'];
 $assunto  = $_POST['assunto'];
-$mensagem = $_POST['mensagem'];
+$mensagem = n12br($_POST['mensagem']);
 $telefone = $_POST['telefone'];
 
 $mensagemConcatenada = 'Contato gerado via website'.'<br/>';
+$mensagemConcatenada .= '-------------------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Segue dados do contato:<br/><br/>';
+$mensagemConcatenada .= '<strong>Nome: </strong>'.$remetenteNome.'<br/>';
+$mensagemConcatenada .= '<strong>E-mail: </strong>'.$remetenteEmail.'<br/>';
+$mensagemConcatenada .= '<strong>Telefone: </strong>'.$telefone.'<br/>';
+$mensagemConcatenada .= '<strong>Assunto: </strong>'.$assunto.'<br/>';
 $mensagemConcatenada .= '-------------------------------<br/><br/>';
-$mensagemConcatenada .= 'Segue dados do contato:<br/>';
-$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>';
-$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>';
-$mensagemConcatenada .= 'Telefone: '.$telefone.'<br/>';
-$mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
-$mensagemConcatenada .= '-------------------------------<br/><br/>';
-$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
+$mensagemConcatenada .= '<strong>Mensagem: </strong>'.$mensagem.'<br/>';
 
 
 //require_once('phpmailer/class.phpmailer.php');
