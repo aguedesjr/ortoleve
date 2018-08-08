@@ -22,11 +22,11 @@ Menu:
 - Quem somos
 - Especialidades  
 - Profissionais  
-- Fotos do Local  
+- Fotos do Local  (OK)  
 - Planos  (Retirado)  
 
---> Contato com Mapa  
---> Área do Cliente (Número Carteira, Senha, Nome, Perfil, Tabela fornecida).
+--> Contato com Mapa  (OK)  
+--> Área do Cliente (Número Carteira, Senha, Nome, Perfil, Tabela fornecida).  
 
 > Banco de dados MySQL na área do cliente. ortoleve Orto2007! / nao-responda zBf1NRaK / contato orto2007
 
