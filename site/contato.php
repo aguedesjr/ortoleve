@@ -167,19 +167,19 @@
           <div class="col-md-8">
             <h3 class="line-bottom mt-0 mb-30">Entre em contato conosco</h3>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="includes/enviaremail.php" method="post">
+            <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
 
               <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group">
                     <label>Nome <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Nome" required="">
+                    <input name="remetenteNome" class="form-control" type="text" placeholder="Nome" required="">
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group">
                     <label>E-mail <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="E-mail">
+                    <input name="remetenteEmail" class="form-control required email" type="email" placeholder="E-mail">
                   </div>
                 </div>
               </div>
@@ -188,7 +188,7 @@
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label>Assunto <small>*</small></label>
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Assunto">
+                    <input name="assunto" class="form-control required" type="text" placeholder="Assunto">
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -201,7 +201,7 @@
 
               <div class="form-group">
                 <label>Mensagem</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Mensagem"></textarea>
+                <textarea name="mensagem" class="form-control required" rows="5" placeholder="Mensagem"></textarea>
               </div>
               <div class="form-group">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
