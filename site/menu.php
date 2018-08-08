@@ -1,3 +1,24 @@
+<div class="header-top bg-light sm-text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="widget">
+              <i class="fa fa-clock-o text-theme-colored"></i> Funcionamento:  Seg - Sex : 08.00 - 18.00
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="widget">
+              <ul class="list-inline pull-right flip sm-pull-none sm-text-center">
+                <li><i class="fa fa-phone text-theme-colored"></i> Telefone: <a href="#">(22) 2734-2354</a></li>
+                 <li><i class="fa fa-whatsapp text-theme-colored"></i> Whatsapp: <a href="#">(22) 99837-7312</a></li>
+                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">centroortoleve@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">

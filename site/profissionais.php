@@ -135,7 +135,7 @@
               </div>
               <div class="team-details bg-theme-colored p-20">
                 <h4 class="text-uppercase mb-0"><a class="text-white">Dr. Victor N. Pereira</a></h4>
-                <p class="text-white">Ortodontista </p>
+                <p class="text-white">Clínica Geral e Ortodontista </p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@
               </div>
               <div class="team-details bg-theme-colored p-20">
                 <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Fernanda Vieira</a></h4>
-                <p class="text-white">Ortodontista </p>
+                <p class="text-white">Clínica Geral e Ortodontista </p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
               </div>
               <div class="team-details bg-theme-colored p-20">
                 <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Juliana N. Calil</a></h4>
-                <p class="text-white">Endodontista</p>
+                <p class="text-white">Clínica Geral e Endodontista</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@
               </div>
               <div class="team-details bg-theme-colored p-20">
                 <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Núbia</a></h4>
-                <p class="text-white">Clínica Geral</p>
+                <p class="text-white">Clínica Geral e Ortodontista</p>
               </div>
             </div>
           </div>

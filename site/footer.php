@@ -12,6 +12,8 @@
               <ul class="styled-icons icon-dark icon-circled icon-sm">
                 <li><a href="https://www.facebook.com/ortoleve.centrodeortodontia"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/ortolevecentrodeortodontia"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="+55 22 998377312"><i class="fa fa-whatsapp"></i></a></li>
               </ul>
             </div>
           </div>
