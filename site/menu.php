@@ -1,4 +1,4 @@
-<div class="header-top bg-light sm-text-center">
+	<div class="header-top bg-light sm-text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -19,7 +19,7 @@
       </div>
     </div>
     
-<div class="header-nav">
+	<div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">
           <nav id="menuzord-right" class="menuzord orange no-bg"><a class="menuzord-brand pull-left flip mb-15" href="index.php"><img src="images/logo-menu.png" alt=""></a>
@@ -41,7 +41,7 @@
               <li><a href="ortoleve50.php">Ortoleve-50</a></li>
               <li><a href="fotos.php">Espaço Ortoleve</a></li>
               <li><a href="contato.php">Contato</a></li>
-              <li><a href="login.php">Área do Cliente</a></li>
+              <li><a href="cliente.php">Área do Cliente</a></li>
             </ul>
           </nav>
         </div>

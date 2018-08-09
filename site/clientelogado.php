@@ -1,38 +1,30 @@
-<?php
-# Arquivo de verificacao de login e senha
+<?php 
 
-//Requer conexao previa com o banco
-require_once ("configs/conn.php");
+# Arquivo de login do usuário no site
 
-// Obtem os dados do formulario de login
-session_start();
-$login = $_POST["form_login"]; //Recebe o login
-$senha = $_POST["form_password"]; //Recebe a senha
-
-// trata os dados recebidos;
-//$login = str_replace(" ", "",$login);
-//$login = str_replace("/","",$login);
-//$login = str_replace(";","",$login);
-//$senha = str_replace(" ", "",$senha);
-//$senha = str_replace("/","",$senha);
-//$senha = str_replace(";","",$senha);
-
-// Busca no banco de dados o usuario informado
-//$resultado = mysql_query("SELECT login, senha, perfil, nome FROM users WHERE login = '$login' AND senha = ENCRYPT('" .$senha. "', senha);");
-$resultado = mysqli_query($conn, "SELECT nome, senha, perfil, carteira FROM usuario WHERE carteira = '$login' AND senha = ENCRYPT('" .$senha. "', senha);");
-$linhas = mysqli_num_rows($resultado);
-
-if ($linhas > 0){ //Verifica se encontrou algum usuário
-    
-  $row = mysqli_fetch_array($resultado);
-  $_SESSION['autenticado']="sim";
-  $_SESSION['login']=($row[3]);
-  //$_SESSION['perfil']=($row[1]);
-  //$_SESSION['nome']= mysql_result($resultado,0,"nome");
-  //echo "<script>alert('Funcionou!!');</script>";
-  header ("location:clientelogado.php");
-}
-else { ?>
+	session_start();
+	$login = $_SESSION['login'];
+	if (!isset($_SESSION["autenticado"])){
+		//<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cstsaraiva.com.br/cliente.php">
+		header ("location:cliente.php");
+		exit;
+	}
+	
+	//Requer conexao previa com o banco
+	require_once ("configs/conn.php");
+	
+	//if (isset($_POST["login"])){
+	    //$login = utf8_decode($_POST["form_login"]);
+	//};
+	
+	$sql = "SELECT nome, empresa, contrato, parceria, carteira FROM usuario WHERE carteira = '$login';";
+	$resultado = mysqli_query($conn,$sql);
+	$result = mysqli_fetch_array($resultado);
+	$linhas = mysqli_num_rows($resultado);
+	
+	if ($linhas > 0){ //Verifica se encontrou algum usuário
+	    
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -131,29 +123,32 @@ else { ?>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#login-tab" data-toggle="tab">Entrar no Portal</a></li>
+              <li class="active"><a href="#login-tab" data-toggle="tab">Informações do Usuário</a></li>
             </ul>
             <div class="tab-content">
               <div class="tab-pane fade in active p-15" id="login-tab">
                 <!-- <h4 class="text-gray mt-0 pt-5"> Informações do </h4> -->
                 <hr>
-                <form name="login-form" action="login.php" class="clearfix" method="post">
+                <form name="info" class="clearfix">
                   <div class="row">
-                    <div class="form-group col-md-12">
-                      <label for="form_login">Número da Carteira</label>
-                      <input id="form_login" name="form_login" class="form-control" type="text">
+                    <div class="col-xs-4">
+                      <label for="form_username_email">Nome:</label>
+                      <input id="form_username_email" placeholder=".col-xs-4" name="form_username_email" class="form-control" value="<?php echo utf8_encode($result[0])?>" type="text" readonly>
+                    </div>
+                    <div class="col-xs-4">
+                      <label for="form_username_email">Nome:</label>
+                      <input id="form_username_email" placeholder=".col-xs-4" name="form_username_email" class="form-control" value="<?php echo utf8_encode($result[0])?>" type="text" readonly>
                     </div>
                   </div>
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_password">Senha</label>
-                      <input id="form_password" name="form_password" class="form-control" type="password">
+                      <input id="form_password" name="form_password" class="form-control" type="text">
                     </div>
-                  </div>
+                  </div> -->
                   <div class="form-group pull-right mt-10">
                     <button type="submit" class="btn btn-theme-colored btn-sm">Login</button>
                   </div>
-                  <p>Login Incorreto</p>
                 </form>
               </div>
             </div>
@@ -177,4 +172,5 @@ else { ?>
 
 </body>
 </html>
+
 <?php }; ?>
