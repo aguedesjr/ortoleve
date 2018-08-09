@@ -10,10 +10,10 @@
           <div class="col-md-6 text-right flip sm-text-center">
             <div class="widget no-border m-0">
               <ul class="styled-icons icon-dark icon-circled icon-sm">
-                <li><a href="https://www.facebook.com/ortoleve.centrodeortodontia"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/ortolevecentrodeortodontia"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="tel:+5522998377312"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/ortoleve.centrodeortodontia"><i class="fa fa-facebook text-theme-colored"></i></a></li>
+                <li><a href="https://www.instagram.com/ortolevecentrodeortodontia"><i class="fa fa-instagram text-theme-colored"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube text-theme-colored"></i></a></li>
+                <li><a href="tel:+5522998377312"><i class="fa fa-whatsapp text-theme-colored"></i></a></li>
               </ul>
             </div>
           </div>
