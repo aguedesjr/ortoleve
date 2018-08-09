@@ -180,8 +180,8 @@
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-radiografia.png" alt="">
-                <h3 class=""><a href="#">Radiografia Periapical</a></h3>             
+                <img src="images/servico-radiografia.jpeg" alt="">
+                <h3 class=""><a href="#">Radiografias</a></h3>             
               </div>
             </div>
             
