@@ -562,11 +562,25 @@
                 <h3 class=""><a href="#">Prevenção</a></h3>            
               </div>
             </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-ortodontia.jpg" alt="">
+                <h3 class=""><a href="#">Ortodontia</a></h3>             
+              </div>
+            </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
                 <img src="images/servico-implante.png" alt="">
                 <h3 class=""><a href="#">Implante</a></h3>            
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-canal.jpg" alt="">
+                <h3 class=""><a href="#">Canal - Endodontia</a></h3>             
               </div>
             </div>
 
@@ -607,13 +621,6 @@
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-ortodontia.jpg" alt="">
-                <h3 class=""><a href="#">Ortodontia</a></h3>             
-              </div>
-            </div>
-            
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="p-20 bg-white">
                 <img src="images/servico-radiografia.jpeg" alt="">
                 <h3 class=""><a href="#">Radiografias</a></h3>             
               </div>
@@ -623,13 +630,6 @@
               <div class="p-20 bg-white">
                 <img src="images/servico-cirurgia.png" alt="">
                 <h3 class=""><a href="#">Cirurgias</a></h3>             
-              </div>
-            </div>
-            
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="p-20 bg-white">
-                <img src="images/servico-canal.jpg" alt="">
-                <h3 class=""><a href="#">Canal - Endodontia</a></h3>             
               </div>
             </div>
             
