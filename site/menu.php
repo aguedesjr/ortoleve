@@ -32,7 +32,7 @@
                   <li><a href="profissionais.php">Profissionais</a></li>
                   <li><a href="ortoleve50.php">Ortoleve-50</a></li>
                   <!-- <li><a href="planos.php">Planos</a></li>  -->
-                  <li><a href="fotos.php">Fotos</a></li>
+                  <li><a href="fotos.php">Espaço Ortoleve</a></li>
                 </ul>
               </li>
               <li><a href="contato.php">Contato</a></li>
