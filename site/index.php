@@ -188,7 +188,7 @@
               <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x750" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Make an Impact">
                 <!-- MAIN IMAGE -->
-                <img src="images/slide2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="images/slide2.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0" 
@@ -552,16 +552,16 @@
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
                 <img src="images/servico-consulta.jpg" alt="">
-                <h3 class=""><a href="#">Consultas</a></h3>                
+                <h3 class=""><a href="#">Clínica Geral</a></h3>                
               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+            <!-- <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
                 <img src="images/servico-prevencao.jpg" alt="">
                 <h3 class=""><a href="#">Prevenção</a></h3>            
               </div>
-            </div>
+            </div>  -->
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
