@@ -85,12 +85,25 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Sou cliente Ortoleve há pelo menos 12 anos... e seu profissionalismo devolveu meu sorriso! Hoje levo minha família também... porque a Ortoleve é  a única empresa deste segmento que eu confio! Parabéns por tudo! Que Deus abençoe a todos vocês!.</p>
+                      <p class="text-white">Sou cliente Ortoleve há pelo menos 12 anos... e seu profissionalismo devolveu meu sorriso! Hoje levo minha família também... porque a Ortoleve é  a única empresa deste segmento que eu confio! Parabéns por tudo! Que Deus abençoe a todos vocês!</p>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
                       <div class="text-right flip pull-right flip mr-20 mt-10">
                         <h5 class="author">Gisela Fonseca</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonial style1">
+                    <div class="comment bg-theme-colored">
+                      <p class="text-white">Sou cliente da Ortoleve há quatro anos e só tenho que elogiar essa equipe de profissionais competentes, compromissados e responsaveis. Não estou morando mais na cidade, hj moro em MG, mas o meu tratamento é feito na Ortoleve. Eu confio!!</p>
+                    </div>
+                    <div class="content mt-20">
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
+                      <div class="text-right flip pull-right flip mr-20 mt-10">
+                        <h5 class="author">Priscila Cavalcante</h5>
                       </div>
                     </div>
                   </div>
