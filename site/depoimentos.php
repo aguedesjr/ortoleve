@@ -19,7 +19,7 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
-                      <p class="text-white">Eu e minha família nos sentimos muito acolhidas por toda Equipe Ortolev! Competência, cuidado, atenção e carinho que fazem toda a diferença... Só temos a agradecer.</p><br><br>
+                      <p class="text-white">Eu e minha família nos sentimos muito acolhidas por toda Equipe Ortoleve! Competência, cuidado, atenção e carinho que fazem toda a diferença... Só temos a agradecer.</p><br><br>
                     </div>
                     <div class="content mt-20">
                       <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/95x95"> </div>  -->

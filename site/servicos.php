@@ -117,7 +117,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-consulta.png" alt="">
+                <img src="images/servico-consulta.jpg" alt="">
                 <h3 class=""><a href="#">Consultas</a></h3>                
               </div>
             </div>
@@ -145,14 +145,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-canal.png" alt="">
-                <h3 class=""><a href="#">Canal - Endodontia</a></h3>             
-              </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-              <div class="p-20 bg-white">
-                <img src="images/servico-perio.png" alt="">
+                <img src="images/servico-periodontia.jpg" alt="">
                 <h3 class=""><a href="#">Periodontia</a></h3>             
               </div>
             </div>
@@ -166,21 +159,21 @@
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-clareamento.png" alt="">
+                <img src="images/servico-clareamento.jpg" alt="">
                 <h3 class=""><a href="#">Clareamento Dental</a></h3>             
               </div>
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-protese.png" alt="">
+                <img src="images/servico-protese.jpg" alt="">
                 <h3 class=""><a href="#">Prótese Dentária</a></h3>             
               </div>
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-ortodontia.png" alt="">
+                <img src="images/servico-ortodontia.jpg" alt="">
                 <h3 class=""><a href="#">Ortodontia</a></h3>             
               </div>
             </div>
@@ -198,6 +191,14 @@
                 <h3 class=""><a href="#">Cirurgias</a></h3>             
               </div>
             </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-canal.jpg" alt="">
+                <h3 class=""><a href="#">Canal - Endodontia</a></h3>             
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

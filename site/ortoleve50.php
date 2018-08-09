@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-7">
               <h2 class="font-size-38 mt-0">Sobre a <span class="text-theme-colored">Ortoleve-50</span>.</h2>
-              <p class="lead">O objetivo da Ortoleve-50 é a prestação de serviço odontológico de forma individualizada e acessível, onde contato com uma equipe comprometida e qualificada, buscamos oferecer tratamento odontológico amplo e integrado, tornando sua experiência simplesmente leve.</p>
+              <p class="lead">O objetivo da Ortoleve-50 é a prestação de serviço odontológico de forma individualizada e acessível, onde contando com uma equipe comprometida e qualificada, buscamos oferecer tratamento odontológico amplo e integrado, tornando sua experiência simplesmente leve.</p>
               <!-- <p class="lead">Fundada pelo Dr. Maurício Ribeiro, que possui 25 anos dedicados à odontologia. Unindo-se a profissionais qualificados, compõe a Clínica de Odontologia Especializada Ortoleve.</p> -->
               <a href="contato.php" class="btn btn-theme-colored btn-lg btn-circled mt-30">Saiba mais</a>
             </div>
