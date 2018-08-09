@@ -9,9 +9,9 @@
           <div class="col-md-6">
             <div class="widget">
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center">
-                <li><i class="fa fa-phone text-theme-colored"></i> Telefone: <a href="#">(22) 2734-2354</a></li>
-                 <li><i class="fa fa-whatsapp text-theme-colored"></i> Whatsapp: <a href="#">(22) 99837-7312</a></li>
-                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">contato@ortoleve.com.br</a></li>
+                <li><i class="fa fa-phone text-theme-colored"></i> Telefone: <a href="tel:2227342354">(22) 2734-2354</a></li>
+                 <li><i class="fa fa-whatsapp text-theme-colored"></i> Whatsapp: <a href="tel:22998377312">(22) 99837-7312</a></li>
+                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="mailto:contato@ortoleve.com.br">contato@ortoleve.com.br</a></li>
               </ul>
             </div>
           </div>
