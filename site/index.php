@@ -527,11 +527,116 @@
         </div>
       </div>
     </section>
+    
   </div>
   <!-- end main-content -->
 
     <!-- Depoimentos -->
   <?php include 'depoimentos.php';?>
+  
+   <!-- Section: Depertment -->
+    <section id="depertment">
+      <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="text-uppercase mt-0 line-height-1">Nossos Serviços</h2>
+              <div class="title-icon">
+                <img class="mb-10" src="images/title-icon.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-consulta.jpg" alt="">
+                <h3 class=""><a href="#">Consultas</a></h3>                
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-prevencao.jpg" alt="">
+                <h3 class=""><a href="#">Prevenção</a></h3>            
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-implante.png" alt="">
+                <h3 class=""><a href="#">Implante</a></h3>            
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-resina.png" alt="">
+                <h3 class=""><a href="#">Restauração - Resina</a></h3>              
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-periodontia.jpg" alt="">
+                <h3 class=""><a href="#">Periodontia</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-odontopediatria.png" alt="">
+                <h3 class=""><a href="#">Odontopediatria</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-clareamento.jpg" alt="">
+                <h3 class=""><a href="#">Clareamento Dental</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-protese.jpg" alt="">
+                <h3 class=""><a href="#">Prótese Dentária</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-ortodontia.jpg" alt="">
+                <h3 class=""><a href="#">Ortodontia</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-radiografia.jpeg" alt="">
+                <h3 class=""><a href="#">Radiografias</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-cirurgia.png" alt="">
+                <h3 class=""><a href="#">Cirurgias</a></h3>             
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+              <div class="p-20 bg-white">
+                <img src="images/servico-canal.jpg" alt="">
+                <h3 class=""><a href="#">Canal - Endodontia</a></h3>             
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Footer -->
   <?php include 'footer.php';?>

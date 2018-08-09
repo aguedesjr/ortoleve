@@ -36,7 +36,7 @@
                 </ul>
               </li>-->
               <li><a href="sobre.php">Quem somos</a></li>
-              <li><a href="servicos.php">Serviços</a></li>
+              <!-- <li><a href="servicos.php">Serviços</a></li>-->
               <li><a href="profissionais.php">Profissionais</a></li>
               <li><a href="ortoleve50.php">Ortoleve-50</a></li>
               <li><a href="fotos.php">Espaço Ortoleve</a></li>
