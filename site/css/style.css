@@ -8,3 +8,21 @@ theme. But don't modify style-main.css file.
 */
 
 /* Your custom css codes start here: */
+
+@media only screen and (max-device-width: 480px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    }
+
+ @media only screen and (min-device-width: 481px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }

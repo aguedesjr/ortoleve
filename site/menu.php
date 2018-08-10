@@ -1,17 +1,17 @@
-	<div class="header-top bg-light sm-text-center">
+	<div class="header-top bg-theme-colored sm-text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="widget">
-              <i class="fa fa-clock-o text-theme-colored"></i> Funcionamento:  Seg - Sex : 08.00 - 18.00
+            <div class="widget text-white">
+              <i class="fa fa-clock-o text-white"></i> Funcionamento:  Seg - Sex : 08.00 - 18.00
             </div>
           </div>
           <div class="col-md-6">
-            <div class="widget">
+            <div class="widget text-white">
               <ul class="list-inline pull-right flip sm-pull-none sm-text-center">
-                <li><i class="fa fa-phone text-theme-colored"></i> Telefone: <a href="tel:2227342354">(22) 2734-2354</a></li>
-                 <li><i class="fa fa-whatsapp text-theme-colored"></i> Whatsapp: <a href="tel:22998377312">(22) 99837-7312</a></li>
-                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="mailto:contato@ortoleve.com.br">contato@ortoleve.com.br</a></li>
+                <li><i class="fa fa-phone text-white"></i> Telefone: <a href="tel:2227342354" class="text-white">(22) 2734-2354</a></li>
+                 <li><i class="fa fa-whatsapp text-white"></i> Whatsapp: <a href="tel:22998377312" class="text-white">(22) 99837-7312</a></li>
+                <li><i class="fa fa-envelope-o text-white"></i> <a href="mailto:contato@ortoleve.com.br" class="text-white">contato@ortoleve.com.br</a></li>
               </ul>
             </div>
           </div>

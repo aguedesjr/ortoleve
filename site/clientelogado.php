@@ -17,14 +17,22 @@
 	    //$login = utf8_decode($_POST["form_login"]);
 	//};
 	
+	//Retorna as informações do usuário
 	$sql = "SELECT nome, empresa, contrato, parceria, carteira FROM usuario WHERE carteira = '$login';";
 	$resultado = mysqli_query($conn,$sql);
 	$result = mysqli_fetch_array($resultado);
 	$linhas = mysqli_num_rows($resultado);
 	
+	//Retorna as informações da parceria
+	$sql1 = "SELECT nome FROM planos WHERE id = '$result[3]';";
+	$resultado1 = mysqli_query($conn,$sql1);
+	$result1 = mysqli_fetch_array($resultado1);
+	
+	
 	if ($linhas > 0){ //Verifica se encontrou algum usuário
 	    
 ?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -63,7 +71,8 @@
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+<link href="fonts/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+ <link href="css/style.css" rel="stylesheet" type="text/css">
 
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
@@ -99,6 +108,7 @@
 
   <!-- Start main-content -->
   <div class="main-content">
+
     <!-- Section: inner-header -->
     <section class="inner-header divider parallax layer-overlay overlay-theme-colored-6">
       <div class="container pt-60 pb-60">
@@ -117,42 +127,122 @@
         </div>
       </div>
     </section>
-
-    <section>
+ 
+    <!-- Divider: Contact -->
+    <section class="divider">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#login-tab" data-toggle="tab">Informações do Usuário</a></li>
-            </ul>
-            <div class="tab-content">
-              <div class="tab-pane fade in active p-15" id="login-tab">
-                <!-- <h4 class="text-gray mt-0 pt-5"> Informações do </h4> -->
-                <hr>
-                <form name="info" class="clearfix">
-                  <div class="row">
-                    <div class="col-xs-4">
-                      <label for="form_username_email">Nome:</label>
-                      <input id="form_username_email" placeholder=".col-xs-4" name="form_username_email" class="form-control" value="<?php echo utf8_encode($result[0])?>" type="text" readonly>
-                    </div>
-                    <div class="col-xs-4">
-                      <label for="form_username_email">Nome:</label>
-                      <input id="form_username_email" placeholder=".col-xs-4" name="form_username_email" class="form-control" value="<?php echo utf8_encode($result[0])?>" type="text" readonly>
-                    </div>
+        <div class="row pt-30">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-user text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Nome:</h5>
+                    <p><?php echo utf8_encode($result[0])?></p>
                   </div>
-                  <!-- <div class="row">
-                    <div class="form-group col-md-12">
-                      <label for="form_password">Senha</label>
-                      <input id="form_password" name="form_password" class="form-control" type="text">
-                    </div>
-                  </div> -->
-                  <div class="form-group pull-right mt-10">
-                    <button type="submit" class="btn btn-theme-colored btn-sm">Login</button>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-building-o text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Empresa:</h5>
+                    <p><?php echo utf8_encode($result[1])?></p>
                   </div>
-                </form>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-file-text-o text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Contrato:</h5>
+                    <p><?php echo utf8_encode($result[2])?></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-handshake text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Parceria</h5>
+                    <p><?php echo utf8_encode($result1[0])?></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-credit text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Nº Carteira</h5>
+                    <p><?php echo utf8_encode($result[4])?></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          
+          <!-- Exibe conteúdo apenas se a resolução for grande -->
+          <nav class="hide-mobile">
+              <div class="col-md-8">
+                <h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3>
+                <!-- Contact Form -->
+                <ul class="nav nav-pills boot-tabs">
+                	<li class="active"><a href="#PROTESE" data-toggle="tab">4000-4990 PRÓTESE</a></li>
+                	<li><a href="#CIRURGIA" data-toggle="tab">5000-5990 + (3150e3280) CIRURGIA </a></li>
+                </ul>
+                <div class="tab-content">
+                	<div class="tab-pane fade in active" id="PROTESE">
+                        <div class="table-responsive">
+                          <table class="table table-condensed">
+                            <tr class="active">
+                            	<th>Procedimento</th>
+                            	<th>Valor CFO</th>
+                            	<th>Valor Parceria</th>
+                            </tr>
+                            <tr>
+                            	<td>Planejamneto em Prótese (mod. Estudo-par, moldagem em articulador semi-ajustado</td>
+                            	<td>R$ 158,70</td>
+                            	<td>R$ 95,22</td>
+                            </tr>
+                            <tr>
+                            	<td>Enceramento de Diagnóstico (por elemento)</td>
+                            	<td>R$ 172,39</td>
+                            	<td>R$ 103,43</td>
+                            </tr>
+                          </table>
+                        </div>
+                  </div>
+                  <div class="tab-pane fade in active" id="CIRURGIA">
+                        <div class="table-responsive">
+                          <table class="table table-condensed">
+                            <tr class="active">
+                            	<th>Procedimento</th>
+                            	<th>Valor CFO</th>
+                            	<th>Valor Parceria</th>
+                            </tr>
+                            <tr>
+                            	<td>Exodontia (por elemento)</td>
+                            	<td>R$ 144,44</td>
+                            	<td>R$ 86,66</td>
+                            </tr>
+                            <tr>
+                            	<td>Exodontia a Retalho</td>
+                            	<td>R$ 186,86</td>
+                            	<td>R$ 112,11</td>
+                            </tr>
+                          </table>
+                        </div>
+                  </div>
+    			</div>
+              </div>
+          </nav>
+
+          <!-- Exibe conteúdo apenas se a resolução for pequena -->
+          <nav class="show-mobile">
+              <div class="col-md-8">
+                <h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3>
+                <!-- Contact Form -->
+                <a href="files/VALORES REFERENCIAIS.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a>
+    
+              </div>
+          </nav>          
+          
         </div>
       </div>
     </section>
