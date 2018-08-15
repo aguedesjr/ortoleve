@@ -6,14 +6,16 @@ Funções:
 
 --> CRUD Usuários    
 --> CRUD Parcerias    
---> CRUD Empresas  
---> CRUD Procedimentos     
+--> CRUD Empresas  (Para colocar no usuário)  
+--> CRUD Procedimentos
+--> CRUD Categoria         
 
 Menu:  
 
 --> Usuários  
 --> Parcerias  
 --> Empresas  
---> Procedimentos      
+--> Procedimentos
+--> Categoria            
 
 > Sistema ainda em construção.

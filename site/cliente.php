@@ -116,7 +116,7 @@
                     </div>
                   </div>
                   <div class="form-group pull-right mt-10">
-                    <button type="submit" class="btn btn-theme-colored btn-sm">Login</button>
+                    <button type="submit" class="btn btn-theme-colored btn-sm"><i class="fa fa-sign-in"></i> Login</button>
                   </div>
                 </form>
               </div>

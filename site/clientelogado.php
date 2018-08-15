@@ -18,7 +18,7 @@
 	//};
 	
 	//Retorna as informações do usuário
-	$sql = "SELECT nome, empresa, contrato, parceria, carteira FROM usuario WHERE carteira = '$login';";
+	$sql = "SELECT nome, empresa, contrato, parceria, carteira, vencimento FROM usuario WHERE carteira = '$login';";
 	$resultado = mysqli_query($conn,$sql);
 	$result = mysqli_fetch_array($resultado);
 	$linhas = mysqli_num_rows($resultado);
@@ -174,13 +174,27 @@
                   </div>
                 </div>
               </div>
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-date text-theme-colored"></i></a>
+                  <div class="media-body">
+                    <h5 class="mt-0">Vencimento</h5>
+                    <p><?php echo utf8_encode($result[5])?></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           
           <!-- Exibe conteúdo apenas se a resolução for grande -->
           <nav class="hide-mobile">
+          	
               <div class="col-md-8">
-                <h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3>
+                <h3 class="line-bottom mt-0 mb-30">
+                    <table>
+                    	<tr><td width="23%">Tabela de Preços</td>
+                    	<td align="right" width="77%"><a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a></td></tr>
+                    </table>
+                </h3>
                 <!-- Contact Form -->
                 <ul class="nav nav-pills boot-tabs">
                 	<li class="active"><a href="#PROTESE" data-toggle="tab">4000-4990 PRÓTESE</a></li>
@@ -191,16 +205,19 @@
                         <div class="table-responsive">
                           <table class="table table-condensed">
                             <tr class="active">
+                            	<th>Código</th>
                             	<th>Procedimento</th>
-                            	<th>Valor CFO</th>
+                            	<th>Valor Tab.</th>
                             	<th>Valor Parceria</th>
                             </tr>
                             <tr>
+                            	<td></td>
                             	<td>Planejamneto em Prótese (mod. Estudo-par, moldagem em articulador semi-ajustado</td>
                             	<td>R$ 158,70</td>
                             	<td>R$ 95,22</td>
                             </tr>
                             <tr>
+                            	<td></td>
                             	<td>Enceramento de Diagnóstico (por elemento)</td>
                             	<td>R$ 172,39</td>
                             	<td>R$ 103,43</td>
@@ -212,16 +229,19 @@
                         <div class="table-responsive">
                           <table class="table table-condensed">
                             <tr class="active">
+                            	<th>Código</th>
                             	<th>Procedimento</th>
-                            	<th>Valor CFO</th>
+                            	<th>Valor Tab.</th>
                             	<th>Valor Parceria</th>
                             </tr>
                             <tr>
+                            	<td></td>
                             	<td>Exodontia (por elemento)</td>
                             	<td>R$ 144,44</td>
                             	<td>R$ 86,66</td>
                             </tr>
                             <tr>
+                            	<td></td>
                             	<td>Exodontia a Retalho</td>
                             	<td>R$ 186,86</td>
                             	<td>R$ 112,11</td>
@@ -231,6 +251,7 @@
                   </div>
     			</div>
               </div>
+              
           </nav>
 
           <!-- Exibe conteúdo apenas se a resolução for pequena -->
@@ -239,6 +260,7 @@
                 <h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3>
                 <!-- Contact Form -->
                 <a href="files/VALORES REFERENCIAIS.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a>
+                <a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a>
     
               </div>
           </nav>          
