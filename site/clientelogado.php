@@ -28,6 +28,11 @@
 	$resultado1 = mysqli_query($conn,$sql1);
 	$result1 = mysqli_fetch_array($resultado1);
 	
+	//Retorna as informações da empresa
+	$sql2 = "SELECT nome FROM empresas WHERE id = '$result[1]';";
+	$resultado2 = mysqli_query($conn,$sql2);
+	$result2 = mysqli_fetch_array($resultado2);
+	
 	
 	if ($linhas > 0){ //Verifica se encontrou algum usuário
 	    
@@ -146,7 +151,7 @@
                 <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-building-o text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Empresa:</h5>
-                    <p><?php echo utf8_encode($result[1])?></p>
+                    <p><?php echo utf8_encode($result2[0])?></p>
                   </div>
                 </div>
               </div>
