@@ -190,90 +190,71 @@
             </div>
           </div>
           
-          <!-- Exibe conteúdo apenas se a resolução for grande -->
-          <nav class="hide-mobile">
+          
           	
               <div class="col-md-8">
                 <h3 class="line-bottom mt-0 mb-30">
                     <table>
-                    	<tr><td width="25%">Tabela de Preços</td>
-                    	<td align="right" width="75%"><a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a></td>
+                    	<tr><td width="25%">Alterar Senha</td>
+                    	<td align="right" width="75%"><a href="clientelogado.php" class="btn btn-theme-colored"><i class="fa fa-dollar-sign"></i> Preços</a></td>
                     	<td><p>&nbsp;</p></td>
                     	<td><a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a></td></tr>
                     </table>
                 </h3>
                 <!-- Contact Form -->
-                <ul class="nav nav-pills boot-tabs">
-                	<li class="active"><a href="#PROTESE" data-toggle="tab">4000-4990 PRÓTESE</a></li>
-                	<li><a href="#CIRURGIA" data-toggle="tab">5000-5990 + (3150e3280) CIRURGIA </a></li>
-                </ul>
-                <div class="tab-content">
-                	<div class="tab-pane fade in active" id="PROTESE">
-                        <div class="table-responsive">
-                          <table class="table table-condensed">
-                            <tr class="active">
-                            	<th>Código</th>
-                            	<th>Procedimento</th>
-                            	<th>Valor Tab.</th>
-                            	<th>Valor Parceria</th>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Planejamneto em Prótese (mod. Estudo-par, moldagem em articulador semi-ajustado</td>
-                            	<td>R$ 158,70</td>
-                            	<td>R$ 95,22</td>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Enceramento de Diagnóstico (por elemento)</td>
-                            	<td>R$ 172,39</td>
-                            	<td>R$ 103,43</td>
-                            </tr>
-                          </table>
-                        </div>
+                
+                <div class="col-md-8">
+            
+            
+            <form id="contact_form" name="contact_form" class="" action="includes/altsenhabd.php" method="post">
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label>Nova Senha</label>
+                    <input name="senha" class="form-control" type="password" placeholder="Nova Senha" required="" autofocus="autofocus">
+                    <input name="login" type="hidden" value="<?php echo $login;?>">
                   </div>
-                  <div class="tab-pane fade in active" id="CIRURGIA">
-                        <div class="table-responsive">
-                          <table class="table table-condensed">
-                            <tr class="active">
-                            	<th>Código</th>
-                            	<th>Procedimento</th>
-                            	<th>Valor Tab.</th>
-                            	<th>Valor Parceria</th>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Exodontia (por elemento)</td>
-                            	<td>R$ 144,44</td>
-                            	<td>R$ 86,66</td>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Exodontia a Retalho</td>
-                            	<td>R$ 186,86</td>
-                            	<td>R$ 112,11</td>
-                            </tr>
-                          </table>
-                        </div>
-                  </div>
-    			</div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input name="form_botcheck" class="form-control" type="hidden" value="" />
+                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Enviando...">Enviar</button>
+                <!-- <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>-->
+              </div>
+            </form>
+
+            <!-- Contact Form Validation-->
+            <script>
+              $("#contact_form").validate({
+                submitHandler: function(form) {
+                  var form_btn = $(form).find('button[type="submit"]');
+                  var form_result_div = '#form-result';
+                  $(form_result_div).remove();
+                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                  var form_btn_old_msg = form_btn.html();
+                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                  $(form).ajaxSubmit({
+                    dataType:  'json',
+                    success: function(data) {
+                      if( data.status === 'true' ) {
+                        $(form).find('.form-control').val('');
+                      }
+                      form_btn.prop('disabled', false).html(form_btn_old_msg);
+                      $(form_result_div).html(data.message).fadeIn('slow');
+                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                    }
+                  });
+                }
+              });
+            </script>
+          </div>
               </div>
               
-          </nav>
+          
 
-          <!-- Exibe conteúdo apenas se a resolução for pequena -->
-          <nav class="show-mobile">
-              <div class="col-md-8">
-              	<table>
-                    	<tr><td width="65%"><h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3></td>
-                		<td align="right" width="35%" valign="top"><a href="files/valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
-                </table>
-                <!-- Contact Form -->
-                <a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a>
-                <a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a>
-    
-              </div>
-          </nav>          
+                  
           
         </div>
       </div>
