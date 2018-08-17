@@ -5,7 +5,7 @@
 	session_start();
 	$login = $_SESSION['login'];
 	if (!isset($_SESSION["autenticado"])){
-		//<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cstsaraiva.com.br/cliente.php">
+
 		header ("location:index.php");
 		exit;
 	}
@@ -75,6 +75,12 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+    
+        <!-- external javascripts -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.js"></script> 
+    <script src="js/jquery.mask.js"></script>
 
   </head>
 
@@ -185,47 +191,106 @@
               <i class="fas fa-chart-area"></i>
               Gráfico de Usuários x Empresas</div>
             <div class="card-body">
-              <!-- <canvas id="myAreaChart" width="100%" height="30"></canvas> -->
-              <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+              <canvas id="myBarChart" width="100%" height="30"></canvas> 
+              <!-- <div id="chartContainer" style="height: 370px; width: 100%;"></div>-->
             </div>
-            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+            <!-- <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div> -->
           </div>
+          
+          <!-- Codigo PHP para gerar o grafico -->
+          <?php 
+              
+              $first = true;
+              $count = 0;
+              
+              $sqlempresa = mysqli_query($conn, "SELECT nome, id FROM empresas;");
+              
+              while ($rowempresas = mysqli_fetch_array($sqlempresa))
+              {
+                  
+                  $resultuser = mysqli_query($conn, "SELECT COUNT(*) FROM usuario WHERE empresa='$rowempresas[1]';");
+                  
+                  $rowuser = mysqli_fetch_array($resultuser);
+                  
+                  if (!$first) { $json .=  ','; } else { $first = false; }
+                  
+                  $json .= "'".utf8_encode($rowempresas[0])."'";
+                  $json1 .= utf8_encode($rowuser[0]).",";
+                  
+                  if ($count < $rowuser[0]) {
+                      $count = $rowuser[0];
+                  }
+                  
+                  
+              }
+
+          ?>
+          
+          
           <!-- Script que monta o gráfico -->
-          <script>
-            window.onload = function () {
+ 
+          <script type="text/javascript">
+          
+            	window.onload = function () {
+                	// Set new default font family and font color to mimic Bootstrap's default styling
+                	Chart.defaults.global.defaultFontFamily = '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+                	Chart.defaults.global.defaultFontColor = '#292b2c';
+
+                	function getRandomColor() {
+                		  var letters = '0123456789ABCDEF';
+                		  var color = '#';
+                		  for (var i = 0; i < 6; i++) {
+                		    color += letters[Math.floor(Math.random() * 16)];
+                		  }
+                		  return color;
+                		}
+    
+                	// Bar Chart Example
+                	var ctx = document.getElementById("myBarChart");
+                	var myLineChart = new Chart(ctx, {
+                	  type: 'bar',
+                	  data: {
+                	    //labels: ["January", "February", "March", "April", "May", "June"],
+                	    labels: [<?php echo $json;?>],
+                	    datasets: [{
+                	      label: "Usuários",
+                	      backgroundColor: [getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()],
+                	      //borderColor: "rgba(2,117,216,1)",
+                	      data: [<?php echo $json1;?>],
+                	      //data: [100, 101, 90, 75, 50],
+                	    }],
+                	  },
+                	  options: {
+                	    scales: {
+                	      xAxes: [{
+                	        time: {
+                	          unit: ''
+                	        },
+                	        gridLines: {
+                	          display: false
+                	        },
+                	        ticks: {
+                	          maxTicksLimit: <?php echo $result3[0];?>
+                	        }
+                	      }],
+                	      yAxes: [{
+                	        ticks: {
+                	          min: 0,
+                	          max: <?php echo $count;?>,
+                	          maxTicksLimit: 5
+                	        },
+                	        gridLines: {
+                	          display: true
+                	        }
+                	      }],
+                	    },
+                	    legend: {
+                	      display: false
+                	    }
+                	  }
+                	});
+            	}            	
             
-            var options = {
-            	animationEnabled: true,
-            	title: {
-            		//text: "GDP Growth Rate - 2016"
-            	},
-            	axisY: {
-            		title: "Usuários",
-            		suffix: "",
-            		includeZero: false
-            	},
-            	axisX: {
-            		title: "Empresas"
-            	},
-            	data: [{
-            		type: "column",
-            		yValueFormatString: "#",
-            		dataPoints: [
-            			{ label: "Iraq", y: 10 },	
-            			{ label: "Turks & Caicos Islands", y: 9 },	
-            			{ label: "Nauru", y: 8 },
-            			{ label: "Ethiopia", y: 7 },	
-            			{ label: "Uzbekistan", y: 7 },
-            			{ label: "Nepal", y: 7 },
-            			{ label: "Iceland", y: 7 },
-            			{ label: "India", y: 7 }
-            			
-            		]
-            	}]
-            };
-            $("#chartContainer").CanvasJSChart(options);
-            
-            }
             </script>
 
         </div>
@@ -257,18 +322,17 @@
 
     <!-- Page level plugin JavaScript-->
     <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script> -->
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin.min.js"></script>
 
     <!-- Demo scripts for this page-->
-    <script src="js/demo/datatables-demo.js"></script>
-    <script src="js/demo/chart-area-demo.js"></script>
+    <!-- <script src="js/demo/datatables-demo.js"></script> -->
     
-    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-	<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    
+	
 
   </body>
 
