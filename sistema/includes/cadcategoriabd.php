@@ -18,7 +18,7 @@ if(!mysqli_query($conn,"INSERT INTO categoria (nome) VALUES ('$nome')")){
     $message = 'Erro ao enviar formulário: '. print(mysqli_error($conn));
     $status = "false";
 }else{
-    $message = 'Empresa <strong>cadastrada</strong> com sucesso';
+    $message = 'Categoria <strong>cadastrada</strong> com sucesso';
     $status = "true";
 }
 mysqli_close($conn);

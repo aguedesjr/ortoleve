@@ -105,13 +105,13 @@
                   <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_login">Login</label>
-                      <input id="form_login" name="form_login" class="form-control" type="text">
+                      <input id="form_login" name="form_login" class="form-control" type="text" required="required">
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_password">Senha</label>
-                      <input id="form_password" name="form_password" class="form-control" type="password">
+                      <input id="form_password" name="form_password" class="form-control" type="password" required="required">
                     </div>
                   </div>
                   <!-- <div class="checkbox pull-left mt-15">

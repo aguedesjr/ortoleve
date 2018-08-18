@@ -98,6 +98,19 @@
                 <div class="item">
                   <div class="testimonial style1">
                     <div class="comment bg-theme-colored">
+                      <p class="text-white">A ortoleve faz parte da vida da minha família.Começou comigo e depois todos da minha casa. Somos recebidos com um sorriso lindo dos dentistas e com um tratamento de qualidade.Os profissionais estão sempre se atualizando e nos proporcionando tratamento de primeira.</p>
+                    </div>
+                    <div class="content mt-20">
+                      <!-- <div class="thumb pull-right flip"> <img class="img-circle" alt="" src="http://placehold.it/100x100"> </div>  -->
+                      <div class="text-right flip pull-right flip mr-20 mt-10">
+                        <h5 class="author">Valéria Cristina da Silva e  família.</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonial style1">
+                    <div class="comment bg-theme-colored">
                       <p class="text-white">Sou cliente da Ortoleve há quatro anos e só tenho que elogiar essa equipe de profissionais competentes, compromissados e responsaveis. Não estou morando mais na cidade, hj moro em MG, mas o meu tratamento é feito na Ortoleve. Eu confio!!</p>
                     </div>
                     <div class="content mt-20">

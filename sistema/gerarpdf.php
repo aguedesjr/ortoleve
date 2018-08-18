@@ -19,15 +19,8 @@
 	
 	$data = date("m/y");
 	//Conta a quantidade de usuários no sistema
-	$sql = "SELECT nome, carteira FROM `usuario` WHERE vencimento = '$data'";
-	$resultado = mysqli_query($conn,$sql);
-	
-	
-	//Conta a quantidade de usuarios com vencimento naquele mes
-	$sql2 = "SELECT COUNT(*) FROM `usuario` WHERE vencimento = '$data'";
-	$resultado2 = mysqli_query($conn,$sql2);
-	$result2 = mysqli_fetch_array($resultado2);
-	
+	$sql = "SELECT categoria, cod, desconto, nome, valor_desc, valor_tab FROM `procedimento`";
+	$resultado = mysqli_query($conn,$sql);	
 	
 	    
 ?>
@@ -103,9 +96,9 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#" style="color:#ff7351;">Usuários</a>
+              <a href="#" style="color:#ff7351;">Procedimentos</a>
             </li>
-            <li class="breadcrumb-item active">Vencidos</li>
+            <li class="breadcrumb-item active">Gerar PDF</li>
           </ol>
 
           <!-- DataTables Example -->
@@ -123,9 +116,12 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
+                      <th>Código</th>
                       <th>Nome</th>
-                      <th>Nº Carteira</th>
-                      <th>Vencimento</th>
+                      <th>Categoria</th>
+                      <th>Valor Tabelado</th>
+                      <th>Desconto</th>
+                      <th>Valor Desconto</th>
                     </tr>
                   </thead>
                   <!-- <tfoot>
@@ -141,16 +137,41 @@
                   <tbody>
                     
                       <?php while($result = mysqli_fetch_array($resultado)) {
+                      //Conta a quantidade de usuarios com vencimento naquele mes
+                      $sql2 = "SELECT nome FROM `categoria` WHERE id = '$result[0]'";
+                      $resultado2 = mysqli_query($conn,$sql2);
+                      $result2 = mysqli_fetch_array($resultado2);
                         echo "<tr>";
-                        echo "<td>".$result[0]."</td>";
                         echo "<td>".$result[1]."</td>";
-                        echo "<td>".$data."</td>";
+                        echo "<td>".utf8_encode($result[3])."</td>";
+                        echo "<td>".utf8_encode($result2[0])."</td>";
+                        echo "<td>".$result[5]."</td>";
+                        echo "<td>".$result[2]."</td>";
+                        echo "<td>".$result[4]."</td>";
                         echo "</tr>";
                       }?>
                     
                   </tbody>
                 </table>
+                
               </div>
+              
+              <div class="container">
+              
+              <form method="post" action="includes/pdf.php" id="contact_form" name="contact_form">
+              <div class="form-group">
+                      <div class="form-row">
+						<div class="col-md-5"></div>
+                        <div class="col-md-3">
+                           	<input name="form_botcheck" class="form-control" type="hidden" value="" />
+                        	<center><button type="submit" class="btn btn-theme-colored btn-block" style="bgcolor: '#ff7351'" data-loading-text="Enviando..."> <i class="fa fa-file-pdf"></i> Gerar PDF</button></center>
+                        </div>
+                       </div>
+                       </div>
+             
+             </div>
+             </div>
+             </form>
             </div>
             
           </div>

@@ -80,7 +80,7 @@
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.form.js"></script> 
-    <script src="js/jquery.mask.js"></script>
+    
 
   </head>
 
@@ -122,7 +122,7 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#">Dashboard</a>
+              <a href="#" style="color:#ff7351;">Dashboard</a>
             </li>
             <li class="breadcrumb-item active">Início</li>
           </ol>
@@ -254,7 +254,21 @@
                 	    labels: [<?php echo $json;?>],
                 	    datasets: [{
                 	      label: "Usuários",
-                	      backgroundColor: [getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()],
+                	      backgroundColor: [getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()
+                	    	  , getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor(), getRandomColor()],
                 	      //borderColor: "rgba(2,117,216,1)",
                 	      data: [<?php echo $json1;?>],
                 	      //data: [100, 101, 90, 75, 50],

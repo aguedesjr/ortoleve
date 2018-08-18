@@ -26,7 +26,7 @@
 	}
 	
 	//Seleciona o nome das parcerias
-	$sql = "SELECT id, nome FROM `planos`";
+	$sql = "SELECT id, nome FROM `categoria`";
 	$resultado = mysqli_query($conn,$sql);
 
 	//Seleciona o nome das empresas
@@ -57,19 +57,26 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Page level plugin CSS-->
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!--<link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">  -->
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     
     <!-- CSS | Theme Color -->
 	<link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
-    
+		    
+    <!-- external javascripts -->
+<!--     <script src="js/jquery.min.js" type="text/javascript"></script>  -->
+    <!--  <script src="js/jquery.validate.min.js"></script> -->
+    <!-- JS | jquery plugin collection for this theme -->
+
     <!-- external javascripts -->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.form.js"></script> 
+    <script src="js/jquery.maskMoney.min.js"></script>
     <script src="js/jquery.mask.js"></script>
+    
 	
   </head>
 
@@ -111,39 +118,29 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#" style="color:#ff7351;">Usuários</a>
+              <a href="#" style="color:#ff7351;">Procedimentos</a>
             </li>
-            <li class="breadcrumb-item active">Cadastrar Usuário</li>
+            <li class="breadcrumb-item active">Cadastrar Procedimentos</li>
           </ol>
 
           <div class="container">
               <div class="card card-register mx-auto mt-5">
-                <div class="card-header">Informações do Usuário</div>
+                <div class="card-header">Informações dos Procedimentos</div>
                 <div class="card-body">
-                  <form method="post" action="includes/caduserbd.php" id="contact_form" name="contact_form">
-                  	<div class="form-group">
-                      <div class="form-label-group">
-                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome do Usuário" required="required" autofocus="autofocus">
-                        <label for="nome">Nome do Usuário</label>
-                      </div>
-                    </div>
+                  <form method="post" action="includes/cadprocbd.php" id="contact_form" name="contact_form">
+                  	
                     <div class="form-group">
                       <div class="form-row">
                         <div class="col-md-6">
                           <div class="form-label-group">
-                          	<select id="empresa" name="empresa" class="form-control" placeholder="Empresas" required="required" style="height:3.1em;">
-                          		<option>Empresas</option>
-                          		<option>--------------</option>
-                              		<?php while($row1 = mysqli_fetch_array($resultado1)) {
-                              		    echo "<option value='".$row1[0]."'>" . $row1[1] . "</option>";
-                              		}?>
-                          	</select>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome do Procedimento" required />
+                            <label for="nome">Nome do Procedimento</label>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-label-group">
-                            <input type="text" id="contrato" name="contrato" class="form-control" placeholder="Contrato" required="required">
-                            <label for="contrato">Contrato</label>
+                            <input type="text" id="codigo" name="codigo" class="form-control" placeholder="Código" required="required">
+                            <label for="codigo">Código</label>
                           </div>
                         </div>
                       </div>
@@ -153,39 +150,40 @@
                       <div class="form-row">
                         <div class="col-md-6">
                           <div class="form-label-group">
-                          	<select id="parceria" name="parceria" class="form-control" placeholder="Parceria" required="required" style="height:3.1em;">
-                          		<option>Parceria</option>
+                          	<select id="categoria" name="categoria" class="form-control" placeholder="Categoria" required="required" style="height:3.1em;">
+                          		<option>Categoria</option>
                           		<option>--------------</option>
                               		<?php while($row = mysqli_fetch_array($resultado)) {
-                                        echo "<option value='".$row[0]."'>" . $row[1] . "</option>";
+                                        echo "<option value='".$row[0]."'>" . utf8_encode($row[1]) . "</option>";
                               		}?>
                           	</select>
                             <!-- <input type="text" id="parceria" name="parceria" class="form-control" placeholder="Parceria" required="required">  -->
                             
                           </div>
-                        </div>
+                        </div><link href="css/css-plugin-collections.css" rel="stylesheet"/>
+                        
                         <div class="col-md-6">
                           <div class="form-label-group">
-                            <input type="text" id="carteira" name="carteira" class="form-control" placeholder="Carteria" required="required">
-                            <label for="carteira">Nº Carteira</label>
+                            <input type="text" id="desconto" name="desconto" class="form-control" placeholder="Desconto" required="required">
+                            <label for="desconto">Desconto</label>
                           </div>
                         </div>
                       </div>
                     </div>
+                    
                     <div class="form-group">
                     	<div class="form-row">
                         	<div class="col-md-6">
                               <div class="form-label-group">
-                                <input type="text" id="exibir_senha" class="form-control" placeholder="Senha" readonly="readonly">
-                                <label for="exibir_senha">Senha: <?php echo $passwd=generate_password();?></label>
+                                <input type="text" id="valortab" name="valortab" class="form-control" data-thousands="." data-decimal="," placeholder="Valor Tabelado" required="required">
+                                <label for="valortab">Valor Tabelado</label>
                               </div>
-                              <input type="text" id="senha" class="form-control" name="senha" value="<?php echo $passwd;?>">
-                            </div>
+                        	</div>
                             
                             <div class="col-md-6">
                               <div class="form-label-group">
-                                <input type="text" id="vencimento" name="vencimento" class="form-control" placeholder="vencimento" required="required">
-                                <label for="vencimento">Vencimento</label>
+                                <input type="text" id="valordesc" name="valordesc" class="form-control" data-thousands="." data-decimal="," placeholder="Valor com Desconto" required>
+                                <label for="valordesc">Valor com Desconto</label>
                               </div>
                         	</div>
                           </div>
@@ -194,7 +192,7 @@
                     <!--<a class="btn btn-primary btn-block" href="caduserbd.php">Cadastrar</a>-->
                     <div class="form-group">
                     	<input name="form_botcheck" class="form-control" type="hidden" value="" />
-                        <button type="submit" class="btn btn-theme-colored btn-block" data-loading-text="Enviando...">Cadastrar</button>
+                        <button type="submit" class="btn btn-theme-colored btn-block" style="bgcolor: '#ff7351'" data-loading-text="Enviando...">Cadastrar</button>
                     </div>
                   </form>
                 </div>
@@ -219,16 +217,11 @@
                     success: function(data) {
                       if( data.status === 'true' ) {
                         $(form).find('.form-control').val('');
-                        $(form).find("#parceria").val('Parceria');
-                        $(form).find("#empresa").val('Empresas');
-                        $(form).find("#exibir_senha").val('');
-                        $(form).find("#exibir_senha").val('Senha: <?php echo $passwd=generate_password();?>');
-                        $(form).find("#senha").val('<?php echo $passwd;?>');
+                        $(form).find("#categoria").val('Categoria');
                       }
                       form_btn.prop('disabled', false).html(form_btn_old_msg);
                       $(form_result_div).html(data.message).fadeIn('slow');
                       setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      setTimeout(location.reload.bind(location), 60000);
                     }
                   });
                 }
@@ -237,7 +230,9 @@
             
             <script type="text/javascript">  
             	 jQuery(function($){
-            	   $("#vencimento").mask("99/99");		   
+            	   $("#valordesc").maskMoney({prefix:'R$ '});
+            	   $("#valortab").maskMoney({prefix:'R$ '});
+            	   $("#desconto").mask('##0,00%', {reverse: true});
             	});
 
 	 		</script> 
@@ -267,12 +262,14 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Page level plugin JavaScript-->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/chart.js/Chart.min.js"></script> 
     <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- <script src="vendor/datatables/dataTables.bootstrap4.js"></script>  -->
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin.min.js"></script>
+    
+    
 
   </body>
 

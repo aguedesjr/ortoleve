@@ -61,9 +61,10 @@
             <span>Procedimentos</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <a class="dropdown-item" href="login.html">Cadastrar</a>
+            <a class="dropdown-item" href="cadproc.php">Cadastrar</a>
             <a class="dropdown-item" href="register.html">Editar</a>
             <a class="dropdown-item" href="forgot-password.html">Excluir</a>
+            <a class="dropdown-item" href="gerarpdf.php">Gerar PDF</a>
           </div>
         </li>
 

@@ -41,6 +41,9 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     
+    <!-- CSS | Theme Color -->
+	<link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
+    
     <!-- external javascripts -->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.validate.min.js"></script>
@@ -86,7 +89,7 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#">Empresas</a>
+              <a href="#" style="color:#ff7351;">Empresas</a>
             </li>
             <li class="breadcrumb-item active">Cadastrar Empresa</li>
           </ol>
@@ -104,7 +107,7 @@
                     </div>
                     <div class="form-group">
                     	<input name="form_botcheck" class="form-control" type="hidden" value="" />
-                        <button type="submit" class="btn btn-primary btn-block" data-loading-text="Enviando...">Cadastrar</button>
+                        <button type="submit" class="btn btn-theme-colored btn-block" data-loading-text="Enviando...">Cadastrar</button>
                     </div>
                   </form>
                 </div>
