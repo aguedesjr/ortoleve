@@ -138,7 +138,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-smile text-theme-colored"></i></a>
+                <a class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-smile text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Missão</h3>
                   <p>Tornar a odontologia acessível a todos promovendo a saúde bucal.</p>
@@ -147,7 +147,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-star text-theme-colored"></i></a>
+                <a class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-star text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Visão</h3>
                   <p>Ser referência de qualidade acessível na odontologia.</p>
@@ -156,7 +156,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="icon-box iconbox-theme-colored2 left media p-0">
-                <a href="#" class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-chart-line text-theme-colored"></i></a>
+                <a class="icon icon-bordered icon-circled media-left pull-left"><i class="fa fa-chart-line text-theme-colored"></i></a>
                 <div class="media-body">
                   <h3 class="media-heading heading">Valores</h3>
                   <ul class="list theme-colored check">
