@@ -95,6 +95,24 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+<style>
+table#precos {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td#nome {
+    padding-left: 5px;
+    color: #000000
+}
+td#numero {
+    color: #000000
+}
+td#titulo {
+    background-color: #cccccc;
+}
+</style>
+
 </head>
 <body class="">
 <div id="wrapper" class="clearfix">
@@ -140,7 +158,7 @@
           <div class="col-md-4">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-user text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="pe-7s-user text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Nome:</h5>
                     <p><?php echo utf8_encode($result[0])?></p>
@@ -148,7 +166,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-building-o text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="fa fa-building-o text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Empresa:</h5>
                     <p><?php echo utf8_encode($result2[0])?></p>
@@ -156,7 +174,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-file-text-o text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="fa fa-file-text-o text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Contrato:</h5>
                     <p><?php echo utf8_encode($result[2])?></p>
@@ -164,7 +182,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-handshake text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="fa fa-handshake text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Parceria</h5>
                     <p><?php echo utf8_encode($result1[0])?></p>
@@ -172,7 +190,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-credit text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="pe-7s-credit text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Nº Carteira</h5>
                     <p><?php echo utf8_encode($result[4])?></p>
@@ -180,7 +198,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12">
-                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-date text-theme-colored"></i></a>
+                <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left"> <i class="pe-7s-date text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">Vencimento</h5>
                     <p><?php echo utf8_encode($result[5])?></p>
@@ -202,71 +220,38 @@
                     	<td><a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a></td></tr>
                     </table>
                 </h3>
-                <!-- Contact Form -->
-                <ul class="nav nav-pills boot-tabs">
-                	<li class="active"><a href="#PROTESE" data-toggle="tab">4000-4990 PRÓTESE</a></li>
-                	<li><a href="#CIRURGIA" data-toggle="tab">5000-5990 + (3150e3280) CIRURGIA </a></li>
-                </ul>
-                <div class="tab-content">
-                	<div class="tab-pane fade in active" id="PROTESE">
-                        <div class="table-responsive">
-                          <table class="table table-condensed">
-                            <tr class="active">
-                            	<th>Código</th>
-                            	<th>Procedimento</th>
-                            	<th>Valor Tab.</th>
-                            	<th>Valor Parceria</th>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Planejamneto em Prótese (mod. Estudo-par, moldagem em articulador semi-ajustado</td>
-                            	<td>R$ 158,70</td>
-                            	<td>R$ 95,22</td>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Enceramento de Diagnóstico (por elemento)</td>
-                            	<td>R$ 172,39</td>
-                            	<td>R$ 103,43</td>
-                            </tr>
-                          </table>
-                        </div>
-                  </div>
-                  <div class="tab-pane fade in active" id="CIRURGIA">
-                        <div class="table-responsive">
-                          <table class="table table-condensed">
-                            <tr class="active">
-                            	<th>Código</th>
-                            	<th>Procedimento</th>
-                            	<th>Valor Tab.</th>
-                            	<th>Valor Parceria</th>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Exodontia (por elemento)</td>
-                            	<td>R$ 144,44</td>
-                            	<td>R$ 86,66</td>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td>Exodontia a Retalho</td>
-                            	<td>R$ 186,86</td>
-                            	<td>R$ 112,11</td>
-                            </tr>
-                          </table>
-                        </div>
-                  </div>
-    			</div>
-              </div>
-              
-          </nav>
+                <?php
+                    //Retorna as informações da categoria no sistema
+                    $sql = "SELECT id, nome FROM `categoria` ORDER BY ABS(nome)";
+                    $resultado = mysqli_query($conn,$sql);
+                ?>
+                <table border="1" id="precos">
+                	<?php while ($result = mysqli_fetch_array($resultado)){?>
+                	<tr>
+                		<td width="100%" colspan="5" align="center" id="titulo"><h4><?php echo utf8_encode($result[1]);?></h4></td>
+                	</tr>
+                	<?php
+                    	$sql1 = "SELECT nome, cod, valor_tab, desconto, valor_desc FROM `procedimento` WHERE categoria = '$result[0]'";
+                    	$resultado1 = mysqli_query($conn,$sql1);
+                    	while ($result1 = mysqli_fetch_array($resultado1)){
+                	?>
+                	<tr>
+                		<td width="6%" align="center" id="numero"><?php echo utf8_encode($result1[1]);?></td>
+                		<td width="64%" id="nome"><?php echo utf8_encode($result1[0]);?></td>
+                		<td width="12%" id="nome"><?php echo utf8_encode($result1[2]);?></td>
+                		<td width="6%" align="center" id="numero"><?php echo utf8_encode($result1[3]);?></td>
+                		<td width="12%" id="nome"><?php echo utf8_encode($result1[4]);?></td>
+                	</tr>
+                	<?php };};?>
+                </table>
+             </nav>
 
           <!-- Exibe conteúdo apenas se a resolução for pequena -->
           <nav class="show-mobile">
               <div class="col-md-8">
               	<table>
                     	<tr><td width="65%"><h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3></td>
-                		<td align="right" width="35%" valign="top"><a href="files/valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
+                		<td align="right" width="35%" valign="top"><a href="files/tabela_valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
                 </table>
                 <!-- Contact Form -->
                 <a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a>

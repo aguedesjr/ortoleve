@@ -25,7 +25,6 @@
 	    
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,7 +53,8 @@
     
     <!-- CSS | Theme Color -->
 	<link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
-
+	
+	
   </head>
 
   <body id="page-top">
@@ -158,20 +158,20 @@
               
               <div class="container">
               
-              <form method="post" action="includes/pdf.php" id="contact_form" name="contact_form">
+              <form method="post" action="pdf.php">
               <div class="form-group">
                       <div class="form-row">
 						<div class="col-md-5"></div>
                         <div class="col-md-3">
                            	<input name="form_botcheck" class="form-control" type="hidden" value="" />
-                        	<center><button type="submit" class="btn btn-theme-colored btn-block" style="bgcolor: '#ff7351'" data-loading-text="Enviando..."> <i class="fa fa-file-pdf"></i> Gerar PDF</button></center>
+                        	<center><button type="submit" class="btn btn-theme-colored btn-block" style="bgcolor: '#ff7351'"> <i class="fa fa-file-pdf"></i> Gerar PDF</button></center>
                         </div>
-                       </div>
-                       </div>
-             
-             </div>
-             </div>
+                      </div>
+              </div>
              </form>
+             </div>
+             
+             
             </div>
             
           </div>

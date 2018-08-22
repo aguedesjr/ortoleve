@@ -25,13 +25,9 @@
 	        return $str;
 	}
 	
-	//Seleciona o nome das parcerias
-	$sql = "SELECT id, nome FROM `categoria`";
+	//Seleciona o nome das categoria
+	$sql = "SELECT id, nome FROM `categoria` ORDER BY nome";
 	$resultado = mysqli_query($conn,$sql);
-
-	//Seleciona o nome das empresas
-	$sql1 = "SELECT id, nome FROM `empresas`";
-	$resultado1 = mysqli_query($conn,$sql1);
 	
 	    
 ?>

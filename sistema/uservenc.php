@@ -142,7 +142,7 @@
                     
                       <?php while($result = mysqli_fetch_array($resultado)) {
                         echo "<tr>";
-                        echo "<td>".$result[0]."</td>";
+                        echo "<td>".utf8_encode($result[0])."</td>";
                         echo "<td>".$result[1]."</td>";
                         echo "<td>".$data."</td>";
                         echo "</tr>";

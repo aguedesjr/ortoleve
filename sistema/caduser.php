@@ -176,10 +176,10 @@
                     	<div class="form-row">
                         	<div class="col-md-6">
                               <div class="form-label-group">
-                                <input type="text" id="exibir_senha" class="form-control" placeholder="Senha" readonly="readonly">
+                                <input type="text" id="exibir_senha" class="form-control" placeholder=" " readonly="readonly">
                                 <label for="exibir_senha">Senha: <?php echo $passwd=generate_password();?></label>
                               </div>
-                              <input type="text" id="senha" class="form-control" name="senha" value="<?php echo $passwd;?>">
+                              <input type="hidden" id="senha" class="form-control" name="senha" value="<?php echo $passwd;?>">
                             </div>
                             
                             <div class="col-md-6">
@@ -222,13 +222,12 @@
                         $(form).find("#parceria").val('Parceria');
                         $(form).find("#empresa").val('Empresas');
                         $(form).find("#exibir_senha").val('');
-                        $(form).find("#exibir_senha").val('Senha: <?php echo $passwd=generate_password();?>');
                         $(form).find("#senha").val('<?php echo $passwd;?>');
                       }
                       form_btn.prop('disabled', false).html(form_btn_old_msg);
                       $(form_result_div).html(data.message).fadeIn('slow');
                       setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      setTimeout(location.reload.bind(location), 60000);
+                      setTimeout(function(){ window.location.reload() }, 6100);
                     }
                   });
                 }

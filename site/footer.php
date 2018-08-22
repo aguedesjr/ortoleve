@@ -5,6 +5,7 @@
         <div class="row">
           <div class="col-md-6 sm-text-center">
             <p class="font-13 text-black-777 m-0">Ortoleve | Clínica de Odontologia Especializada</p>
+            <p class="font-13 text-black-777 m-0">EPAO: 4717 | RT: Maurício Ribeiro - CRO-RJ: 20328</p>
             <p class="font-13 text-black-777 m-0">Copyright &copy;<?php echo date("Y"); ?>. Todos os direitos reservados.</p>
           </div>
           <div class="col-md-6 text-right flip sm-text-center">
