@@ -39,7 +39,7 @@
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadempresas.php">Cadastrar</a>
             <a class="dropdown-item" href="register.html">Editar</a>
-            <a class="dropdown-item" href="forgot-password.html">Excluir</a>
+            <a class="dropdown-item" href="delempresas.php">Excluir</a>
           </div>
         </li>
         

@@ -5,7 +5,7 @@
 	session_start();
 	$login = $_SESSION['login'];
 	if (!isset($_SESSION["autenticado"])){
-
+		//<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cstsaraiva.com.br/cliente.php">
 		header ("location:index.php");
 		exit;
 	}
@@ -13,10 +13,9 @@
 	//Requer conexao previa com o banco
 	require_once ("configs/conn.php");
 	
-	//Conta a quantidade de procedimentos no sistema
-	$sql = "SELECT categoria, cod, desconto, nome, valor_desc, valor_tab FROM `procedimento`";
-	$resultado = mysqli_query($conn,$sql);	
-	
+	//Seleciona o nome das empresas
+	$sql1 = "SELECT id, nome FROM `empresas`";
+	$resultado1 = mysqli_query($conn,$sql1);
 	    
 ?>
 
@@ -25,7 +24,7 @@
 
   <head>
 
-        <!-- Meta Tags -->
+     <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="Ortoleve | Clínica de Odontologia Especializada" />
@@ -48,7 +47,11 @@
     
     <!-- CSS | Theme Color -->
 	<link href="css/colors/theme-skin-color-set3.css" rel="stylesheet" type="text/css">
-	
+    
+    <!-- external javascripts -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.js"></script> 
 	
   </head>
 
@@ -62,7 +65,7 @@
         <i class="fas fa-bars"></i>
       </button>
 
-       <!-- Navbar Search -->
+      <!-- Navbar Search -->
       <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
           <!-- <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"> -->
@@ -81,7 +84,6 @@
 
     <div id="wrapper">
 
-      <!-- Sidebar -->
       <?php include 'menu.php';?>
 
       <div id="content-wrapper">
@@ -91,86 +93,64 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#" style="color:#ff7351;">Procedimentos</a>
+              <a href="#" style="color:#ff7351;">Empresas</a>
             </li>
-            <li class="breadcrumb-item active">Gerar PDF</li>
+            <li class="breadcrumb-item active">Cadastrar Empresa</li>
           </ol>
 
-          <!-- DataTables Example -->
-          <div class="card mb-3">
-            <div class="card-header">
-              <i class="fas fa-table"></i>
-                  Tabela de Procedimentos 
-             </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>Código</th>
-                      <th>Nome</th>
-                      <th>Categoria</th>
-                      <th>Valor Tabelado</th>
-                      <th>Desconto</th>
-                      <th>Valor Desconto</th>
-                    </tr>
-                  </thead>
-                  <!-- <tfoot>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
-                  </tfoot>  -->
-                  <tbody>
-                    
-                      <?php while($result = mysqli_fetch_array($resultado)) {
-                      //Conta a quantidade de usuarios com vencimento naquele mes
-                      $sql2 = "SELECT nome FROM `categoria` WHERE id = '$result[0]'";
-                      $resultado2 = mysqli_query($conn,$sql2);
-                      $result2 = mysqli_fetch_array($resultado2);
-                        echo "<tr>";
-                        echo "<td>".$result[1]."</td>";
-                        echo "<td>".utf8_encode($result[3])."</td>";
-                        echo "<td>".utf8_encode($result2[0])."</td>";
-                        echo "<td>".$result[5]."</td>";
-                        echo "<td>".$result[2]."</td>";
-                        echo "<td>".$result[4]."</td>";
-                        echo "</tr>";
-                      }?>
-                    
-                  </tbody>
-                </table>
-                
-              </div>
-              
-              <div class="container">
-              
-              <form method="post" action="pdf.php">
-              <div class="form-group">
-                      <div class="form-row">
-						<div class="col-md-5"></div>
-                        <div class="col-md-3">
-                           	<input name="form_botcheck" class="form-control" type="hidden" value="" />
-                        	<center><button type="submit" class="btn btn-theme-colored btn-block" style="bgcolor: '#ff7351'"> <i class="fa fa-file-pdf"></i> Gerar PDF</button></center>
-                        </div>
+          <div class="container">
+              <div class="card card-register mx-auto mt-5">
+                <div class="card-header">Informação da Empresa</div>
+                <div class="card-body">
+                  <form method="post" action="includes/delempresabd.php" id="contact_form" name="contact_form">
+                  	<div class="form-group">
+                      <div class="form-label-group">
+                        <select id="empresa" name="empresa" class="form-control" placeholder="Empresas" required="required" style="height:3.1em;">
+                          		<option>Empresas</option>
+                          		<option>--------------</option>
+                              		<?php while($row1 = mysqli_fetch_array($resultado1)) {
+                              		    echo "<option value='".$row1[0]."'>" . $row1[1] . "</option>";
+                              		}?>
+                          	</select>
                       </div>
+                    </div>
+                    <div class="form-group">
+                    	<input name="form_botcheck" class="form-control" type="hidden" value="" />
+                        <button type="submit" class="btn btn-theme-colored btn-block" data-loading-text="Enviando...">Excluir</button>
+                    </div>
+                  </form>
+                </div>
               </div>
-             </form>
-             </div>
-             
-             
             </div>
-            
-          </div>
-
-          
 
         </div>
         <!-- /.container-fluid -->
+        
+        <!-- User Form Validation-->
+            <script>
+              $("#contact_form").validate({
+                submitHandler: function(form) {
+                  var form_btn = $(form).find('button[type="submit"]');
+                  var form_result_div = '#form-result';
+                  $(form_result_div).remove();
+                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                  var form_btn_old_msg = form_btn.html();
+                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                  $(form).ajaxSubmit({
+                    dataType:  'json',
+                    success: function(data) {
+                      if( data.status === 'true' ) {
+                        $(form).find('.form-control').val(''); 
+                      }
+                      form_btn.prop('disabled', false).html(form_btn_old_msg);
+                      $(form_result_div).html(data.message).fadeIn('slow');
+                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                      setTimeout(function(){ window.location.reload() }, 6100);
+                    }
+                  });
+                }
+              });
+            </script>
 
         <!-- Sticky Footer -->
         <?php include 'footer.php';?>
@@ -190,21 +170,19 @@
     <?php include 'logout-modal.php';?>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
     <script src="vendor/datatables/jquery.dataTables.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin.min.js"></script>
-
-    <!-- Demo scripts for this page-->
-    <script src="js/demo/datatables-demo.js"></script>
 
   </body>
 

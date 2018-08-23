@@ -19,7 +19,7 @@ $senha = $_POST["form_password"]; //Recebe a senha
 
 // Busca no banco de dados o usuario informado
 //$resultado = mysql_query("SELECT login, senha, perfil, nome FROM users WHERE login = '$login' AND senha = ENCRYPT('" .$senha. "', senha);");
-$resultado = mysqli_query($conn, "SELECT login, senha FROM portal WHERE login = '$login' AND senha = ENCRYPT('" .$senha. "', senha);");
+$resultado = mysqli_query($conn, "SELECT login, senha, id FROM portal WHERE login = '$login' AND senha = ENCRYPT('" .$senha. "', senha);");
 $linhas = mysqli_num_rows($resultado);
 
 if ($linhas > 0){ //Verifica se encontrou algum usuário
@@ -27,6 +27,7 @@ if ($linhas > 0){ //Verifica se encontrou algum usuário
   $row = mysqli_fetch_array($resultado);
   $_SESSION['autenticado']="sim";
   $_SESSION['login']=($row[0]);
+  $_SESSION['id']=($row[2]);
   //$_SESSION['perfil']=($row[1]);
   //$_SESSION['nome']= mysql_result($resultado,0,"nome");
   //echo "<script>alert('Funcionou!!');</script>";

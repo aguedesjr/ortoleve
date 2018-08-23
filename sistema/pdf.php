@@ -15,7 +15,7 @@ if (!isset($_SESSION["autenticado"])){
 }
 
 //Retorna as informações da categoria no sistema
-$sql = "SELECT id, nome FROM `categoria` ORDER BY nome";
+$sql = "SELECT id, nome FROM `categoria` ORDER BY ABS(nome)";
 $resultado = mysqli_query($conn,$sql);
 
 $pdf = new FPDF("L","mm","A4"); //Ajusta as configurações da página
