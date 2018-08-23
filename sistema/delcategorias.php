@@ -14,7 +14,7 @@
 	require_once ("configs/conn.php");
 	
 	//Seleciona o nome das empresas
-	$sql1 = "SELECT id, nome FROM `empresas`";
+	$sql1 = "SELECT id, nome FROM `categoria`";
 	$resultado1 = mysqli_query($conn,$sql1);
 	    
 ?>
@@ -93,20 +93,20 @@
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="#" style="color:#ff7351;">Empresas</a>
+              <a href="#" style="color:#ff7351;">Categorias</a>
             </li>
-            <li class="breadcrumb-item active">Excluir Empresa</li>
+            <li class="breadcrumb-item active">Excluir Categoria</li>
           </ol>
 
           <div class="container">
               <div class="card card-register mx-auto mt-5">
-                <div class="card-header">Informação da Empresa</div>
+                <div class="card-header">Informação da Categoria</div>
                 <div class="card-body">
-                  <form method="post" action="includes/delempresabd.php" id="contact_form" name="contact_form">
+                  <form method="post" action="includes/delcategoriabd.php" id="contact_form" name="contact_form">
                   	<div class="form-group">
                       <div class="form-label-group">
-                        <select id="empresa" name="empresa" class="form-control" placeholder="Empresas" required="required" style="height:3.1em;">
-                          		<option>Empresas</option>
+                        <select id="categoria" name="categoria" class="form-control" placeholder="Categorias" required="required" style="height:3.1em;">
+                          		<option>Categorias</option>
                           		<option>--------------</option>
                               		<?php while($row1 = mysqli_fetch_array($resultado1)) {
                               		    echo "<option value='".$row1[0]."'>" . utf8_encode($row1[1]) . "</option>";
