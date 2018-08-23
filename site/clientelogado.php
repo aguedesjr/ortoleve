@@ -230,8 +230,15 @@ td#titulo {
                 	<tr>
                 		<td width="100%" colspan="5" align="center" id="titulo"><h4><?php echo utf8_encode($result[1]);?></h4></td>
                 	</tr>
+                	<tr>
+                		<td width="6%" align="center" id="numero"><b>COD</b></td>
+                		<td width="64%" id="nome"><b>PROCEDIMENTO</b></td>
+                		<td width="12%" id="nome"><b>VALOR TAB.</b></td>
+                		<td width="6%" align="center" id="numero"><b>DESC.</b></td>
+                		<td width="12%" id="nome"><b>VAL. DESC.</b></td>
+                	</tr>
                 	<?php
-                    	$sql1 = "SELECT nome, cod, valor_tab, desconto, valor_desc FROM `procedimento` WHERE categoria = '$result[0]'";
+                    	$sql1 = "SELECT nome, cod, valor_tab, desconto, valor_desc FROM `procedimento` WHERE categoria = '$result[0]' ORDER BY cod";
                     	$resultado1 = mysqli_query($conn,$sql1);
                     	while ($result1 = mysqli_fetch_array($resultado1)){
                 	?>

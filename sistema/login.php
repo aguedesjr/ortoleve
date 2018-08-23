@@ -147,7 +147,7 @@ else { ?>
                   <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_password">Senha</label>
-                      <input id="form_password" name="form_password" class="form-control" type="text">
+                      <input id="form_password" name="form_password" class="form-control" type="hidden">
                     </div>
                   </div>
                   <!-- <div class="checkbox pull-left mt-15">

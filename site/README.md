@@ -28,8 +28,6 @@ Menu:
 --> Contato com Mapa  (OK)  
 --> Área do Cliente (Número Carteira, Senha, Nome, Perfil, Tabela fornecida).  
 
-> Banco de dados MySQL na área do cliente. ortoleve Orto2007! / nao-responda zBf1NRaK / contato orto2007 / 20oRt0l3vE10@
-
 Slide:  
 
 --> Horário de Funcionamento com a frase "Horário de Funcionamento: 08h00 as 18h00"  

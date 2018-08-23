@@ -33,16 +33,23 @@ $pdf->Ln(10);
      $pdf->SetFont('Times','B',14);
      $pdf->Cell(0,10,$result[1],1,'','C','true');
      $pdf->Ln(10);
+     $pdf->SetFont('Times','B',12);
+     $pdf->Cell(12,10,'COD',1,'','C');
+     $pdf->Cell(199,10,'PROCEDIMENTO',1);
+     $pdf->Cell(27,10,'VALOR TAB',1);
+     $pdf->Cell(13,10,'DESC',1,'C');
+     $pdf->Cell(26,10,'VAL. DESC.',1);
+     $pdf->Ln(10);
      //Retorna os procedimentos associados a categoria no sistema
-     $sql1 = "SELECT nome, cod, valor_tab, desconto, valor_desc FROM `procedimento` WHERE categoria = '$result[0]'";
+     $sql1 = "SELECT nome, cod, valor_tab, desconto, valor_desc FROM `procedimento` WHERE categoria = '$result[0]' ORDER BY cod";
      $resultado1 = mysqli_query($conn,$sql1);
      while ($result1 = mysqli_fetch_array($resultado1)){
          $pdf->SetFont('Times','',12);
          $pdf->Cell(12,10,$result1[1],1,'','C');
          $pdf->Cell(199,10,$result1[0],1);
          $pdf->Cell(27,10,$result1[2],1);
-         $pdf->Cell(12,10,$result1[3],1);
-         $pdf->Cell(27,10,$result1[4],1);
+         $pdf->Cell(13,10,$result1[3],1,'','C');
+         $pdf->Cell(26,10,$result1[4],1);
          $pdf->Ln(10);
      }
      //$pdf->Ln(7);
