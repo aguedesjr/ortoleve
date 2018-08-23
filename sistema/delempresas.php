@@ -95,7 +95,7 @@
             <li class="breadcrumb-item">
               <a href="#" style="color:#ff7351;">Empresas</a>
             </li>
-            <li class="breadcrumb-item active">Cadastrar Empresa</li>
+            <li class="breadcrumb-item active">Excluir Empresa</li>
           </ol>
 
           <div class="container">
