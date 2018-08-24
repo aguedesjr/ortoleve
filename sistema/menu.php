@@ -14,7 +14,7 @@
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="caduser.php">Cadastrar</a>
             <a class="dropdown-item" href="register.html">Editar</a>
-            <a class="dropdown-item" href="forgot-password.html">Excluir</a>
+            <a class="dropdown-item" href="buscaruserdel.php">Excluir</a>
             <a class="dropdown-item" href="uservenc.php">Vencidos</a>
           </div>
         </li>
@@ -63,7 +63,7 @@
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadproc.php">Cadastrar</a>
             <a class="dropdown-item" href="register.html">Editar</a>
-            <a class="dropdown-item" href="forgot-password.html">Excluir</a>
+            <a class="dropdown-item" href="buscarprocdel.php">Excluir</a>
             <a class="dropdown-item" href="gerarpdf.php">Gerar PDF</a>
           </div>
         </li>
