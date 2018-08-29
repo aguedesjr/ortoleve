@@ -108,14 +108,14 @@
           <div class="row">
             <div class="col-md-4">
               <div class="thumb">
-                <img src="images/mauricio.jpg" alt="">
+                <img src="images/Mauricio.jpg" alt="">
               </div>
             </div>
             <div class="col-md-8">
               <h3 class="name font-24 mt-0 mb-0">DR. MAURÍCIO RIBEIRO</h3>
               <h4 class="mt-5 text-theme-colored">Ortodontista / Ortopedista Facial / Implantodontista</h4>
               <p>Atuando há 25 anos na odontologia buscando servir por amor, tenho um profundo desejo: Tornar a odontologia e a saúde bucal acessível a todos. A Ortoleve nasceu desse ideal e amadureceu quando encontrei profissionais com a mesma visão, missão e valor.</p>              
-              <p class="mt-20"><img src="images/assinatura.png" alt=""></p>
+              <!-- <p class="mt-20"><img src="images/assinatura.png" alt=""></p> -->
             </div>
           </div>
           
@@ -130,7 +130,7 @@
           <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
             <div class="team-members border-bottom-theme-color-2px maxwidth400">
               <div class="team-thumb">
-                <img class="img-fullwidth" alt="" src="images/victor.jpeg">
+                <img class="img-fullwidth" alt="" src="images/Victor.jpg">
                 <div class="team-overlay"></div>
               </div>
               <div class="team-details bg-theme-colored p-20">
@@ -142,7 +142,7 @@
           <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
             <div class="team-members border-bottom-theme-color-2px maxwidth400">
               <div class="team-thumb">
-                <img class="img-fullwidth" alt="" src="images/fernanda.jpeg">
+                <img class="img-fullwidth" alt="" src="images/Fernanda.jpg">
                 <div class="team-overlay"></div>
               </div>
               <div class="team-details bg-theme-colored p-20">
@@ -154,7 +154,7 @@
           <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
             <div class="team-members border-bottom-theme-color-2px maxwidth400">
               <div class="team-thumb">
-                <img class="img-fullwidth" alt="" src="images/juliana.jpeg">
+                <img class="img-fullwidth" alt="" src="images/Juliana.jpg">
                 <div class="team-overlay"></div>
               </div>
               <div class="team-details bg-theme-colored p-20">
@@ -166,12 +166,36 @@
           <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
             <div class="team-members border-bottom-theme-color-2px maxwidth400">
               <div class="team-thumb">
-                <img class="img-fullwidth" alt="" src="images/nubia.jpeg">
+                <img class="img-fullwidth" alt="" src="images/Nubia.jpg">
                 <div class="team-overlay"></div>
               </div>
               <div class="team-details bg-theme-colored p-20">
-                <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Núbia</a></h4>
+                <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Núbia Aires</a></h4>
                 <p class="text-white">Clínica Geral e Ortodontista</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
+            <div class="team-members border-bottom-theme-color-2px maxwidth400">
+              <div class="team-thumb">
+                <img class="img-fullwidth" alt="" src="images/Francine.jpg">
+                <div class="team-overlay"></div>
+              </div>
+              <div class="team-details bg-theme-colored p-20">
+                <h4 class="text-uppercase mb-0"><a class="text-white">Dra. Francine Corrêa</a></h4>
+                <p class="text-white">Clínica Geral e Endodontista </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 sm-text-center mb-30 mb-sm-30">
+            <div class="team-members border-bottom-theme-color-2px maxwidth400">
+              <div class="team-thumb">
+                <img class="img-fullwidth" alt="" src="images/Alceir.jpg">
+                <div class="team-overlay"></div>
+              </div>
+              <div class="team-details bg-theme-colored p-20">
+                <h4 class="text-uppercase mb-0"><a class="text-white">Dr. Alceir Moura</a></h4>
+                <p class="text-white">Clínica Geral e Buco Maxilo </p>
               </div>
             </div>
           </div>
