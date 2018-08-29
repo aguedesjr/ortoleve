@@ -150,7 +150,7 @@
                 <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
                   <div class="media-body">
                     <h5 class="mt-0">E-mail</h5>
-                    <p>centroortoleve@gmail.com</p>
+                    <p>contato@ortoleve.com.br</p>
                   </div>
                 </div>
               </div>
