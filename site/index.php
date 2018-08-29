@@ -36,7 +36,8 @@
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
 
 <!-- Revolution Slider 5.x CSS settings -->
 <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
@@ -93,6 +94,7 @@
     <section id="home" class="divider">
       <div class="container-fluid p-0">
         <!-- START REVOLUTION SLIDER 5.0.7 -->
+        
         <div id="rev_slider_home_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery34" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
           <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
           <div id="rev_slider_home" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
@@ -275,9 +277,10 @@
                 </div>
               </li>
               <!-- SLIDE 3 -->
+              <!-- Exibe conteúdo apenas se a resolução for grande -->
               <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x873" data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Make an Impact">
                 <!-- MAIN IMAGE -->
-                <img src="images/slide3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="images/Equipe.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>  
                 <!-- LAYERS -->
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0" 
@@ -472,6 +475,7 @@
       </div>
     </section>
     
+    
     <!-- Section: About -->
     <!-- <section>
       <div class="container">
@@ -572,7 +576,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
               <div class="p-20 bg-white">
-                <img src="images/servico-implante.png" alt="">
+                <img src="images/servico-implante.jpg" alt="">
                 <h3 class=""><a href="#">Implante</a></h3>            
               </div>
             </div>

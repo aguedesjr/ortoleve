@@ -7,5 +7,5 @@
 	//header ("location:index.php");
 ?>
 <!-- Testado no site e está funcional -->
-<!-- <meta HTTP-EQUIV="REFRESH" content="0; url=http://ortoleve.com.br/site/index.php"> -->
-<meta HTTP-EQUIV="REFRESH" content="0; url=http://10.110.5.7/site/index.php">
+<meta HTTP-EQUIV="REFRESH" content="0; url=http://ortoleve.com.br/site/index.php">
+<!-- <meta HTTP-EQUIV="REFRESH" content="0; url=http://10.110.5.7/site/index.php"> -->
