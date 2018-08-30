@@ -214,8 +214,10 @@ td#titulo {
               <div class="col-md-8">
                 <h3 class="line-bottom mt-0 mb-30">
                     <table>
-                    	<tr><td width="25%">Tabela de Preços</td>
-                    	<td align="right" width="75%"><a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a></td>
+                    	<tr><td width="30%">Tabela de Preços</td>
+                    	<td align="right" width="70%"><a href="http://www.sodf.org.br/site/Arquivos/TABELA%20VRPO%202016.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valor Tab.</a></td>
+                    	<td><p>&nbsp;</p></td>
+                    	<td><a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a></td>
                     	<td><p>&nbsp;</p></td>
                     	<td><a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a></td></tr>
                     </table>
@@ -261,9 +263,15 @@ td#titulo {
                 		<td align="right" width="35%" valign="top"><a href="files/tabela_valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
                 </table>
                 <!-- Contact Form -->
-                <a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a>
-                <a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a>
-    
+                <table>
+                    <tr>
+                        <td><a href="http://www.sodf.org.br/site/Arquivos/TABELA%20VRPO%202016.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> CRO-DF</a></td>
+                        <td><p>&nbsp;</p></td>
+                        <td><a href="alterarsenha.php" class="btn btn-theme-colored"><i class="fa fa-key"></i> Senha</a></td>
+                        <td><p>&nbsp;</p></td>
+                        <td><a href="logout.php" class="btn btn-theme-colored"><i class="fa fa-sign-out"></i> Sair</a></td>
+                    </tr>
+    			</table>
               </div>
           </nav>          
           

@@ -165,9 +165,9 @@
               <!-- Portfolio Item End -->
               
               <!-- Portfolio Item Start -->
-              <div class="gallery-item">
+              <!-- <div class="gallery-item">
                 <a href="images/consultorio8.jpg" data-lightbox="gallery-item" title=""><img src="images/consultorio8.jpg" alt=""></a>
-              </div>
+              </div> -->
               <!-- Portfolio Item End -->
               
               
