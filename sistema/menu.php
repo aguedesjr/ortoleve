@@ -26,7 +26,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadparceria.php">Cadastrar</a>
-            <a class="dropdown-item" href="register.html">Editar</a>
+            <!-- <a class="dropdown-item" href="register.html">Editar</a> -->
             <a class="dropdown-item" href="delparcerias.php">Excluir</a>
           </div>
         </li>
@@ -38,7 +38,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadempresas.php">Cadastrar</a>
-            <a class="dropdown-item" href="register.html">Editar</a>
+            <!-- <a class="dropdown-item" href="register.html">Editar</a> -->
             <a class="dropdown-item" href="delempresas.php">Excluir</a>
           </div>
         </li>
@@ -50,7 +50,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadcategoria.php">Cadastrar</a>
-            <a class="dropdown-item" href="register.html">Editar</a>
+            <!-- <a class="dropdown-item" href="register.html">Editar</a> -->
             <a class="dropdown-item" href="delcategorias.php">Excluir</a>
           </div>
         </li>
@@ -62,7 +62,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="cadproc.php">Cadastrar</a>
-            <a class="dropdown-item" href="register.html">Editar</a>
+            <a class="dropdown-item" href="buscarprocedit.php">Editar</a>
             <a class="dropdown-item" href="buscarprocdel.php">Excluir</a>
             <a class="dropdown-item" href="gerarpdf.php">Gerar PDF</a>
           </div>
