@@ -8,4 +8,4 @@
 ?>
 <!-- Testado no site e está funcional -->
 <!-- <meta HTTP-EQUIV="REFRESH" content="0; url=http://ortoleve.com.br/site/index.php"> -->
-<meta HTTP-EQUIV="REFRESH" content="0; url=http://localhost/sistema/index.php">
+<meta HTTP-EQUIV="REFRESH" content="0; url=http://ortoleve.com.br/sistema/index.php">
