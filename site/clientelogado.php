@@ -260,7 +260,7 @@ td#titulo {
               <div class="col-md-8">
               	<table>
                     	<tr><td width="65%"><h3 class="line-bottom mt-0 mb-30">Tabela de Preços</h3></td>
-                		<td align="right" width="35%" valign="top"><a href="files/tabela_valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
+                		<td align="right" width="35%" valign="top"><a href="../files/tabela_valores.pdf" class="btn btn-theme-colored"><i class="fa fa-file-pdf"></i> Valores</a></td></tr>
                 </table>
                 <!-- Contact Form -->
                 <table>

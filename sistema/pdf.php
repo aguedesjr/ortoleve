@@ -54,7 +54,7 @@ $pdf->Ln(10);
      }
      //$pdf->Ln(7);
 }
-$filename="files/tabela_valores.pdf";
+$filename="../files/tabela_valores.pdf";
 $pdf->Output($filename,'F'); //Gera o arquivo no local que fica disponivel para o usuario no servidor
 $pdf->Output(); //Gera o PDF no monitor para o usuario visualizar o arquivo
 
