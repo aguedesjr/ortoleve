@@ -108,7 +108,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="thumb">
-                <img src="images/Mauricio.jpg" alt="">
+                <img src="images/mauricio.jpg" alt="">
               </div>
             </div>
             <div class="col-md-8">
